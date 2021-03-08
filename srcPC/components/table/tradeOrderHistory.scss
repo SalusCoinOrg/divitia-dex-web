@@ -1,0 +1,43 @@
+.order-tab .trade-history-table {
+    @include rowWith {
+        &:first-child {
+            padding-left: 6px; 
+        }
+        &:last-child {
+            padding-right: 10px; 
+        }
+    }
+}
+
+.trade-history-table {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    @include rowWith {
+        width: 9%;
+    
+        &:first-child {
+            width: 150px;
+        }
+        &:nth-child(2) {
+            width: 150px;
+        }
+        &:nth-child(3) {
+            width: 40px;
+        }
+
+        &:nth-child(10) {
+            width: 63px;
+        }
+        &:nth-child(11) {
+            width: 70px;
+        }
+    }
+    
+    .buy {
+        color: #5bc500;
+    }
+    .sell {
+        color: #ff0008;
+    }
+}

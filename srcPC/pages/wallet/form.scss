@@ -1,0 +1,111 @@
+.__form_border {
+    border-radius: 2px;
+    @include bg_color_2();
+    @include box_shadow();
+}
+
+.__form_input_title {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 12px;
+    letter-spacing: 0.35px;
+    @include font_color_1();
+    @include font-family-bold();
+    .err {
+        float: right;
+        font-size: 12px;
+        color: $red-color-1;
+    }
+}
+
+.__form_btn {
+    border-radius: 2px;
+    background: $blue-color-1;
+    color: #fff;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    float: right;
+    font-size: 12px;
+    @include font-family-bold();
+    &.unuse {
+        @include gray_btn_color();
+        cursor: not-allowed;
+    }
+}
+
+.__form_input {
+    position: relative;
+    box-sizing: border-box;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0 15px;
+    @include bg_color_1();
+    @include gray_font_color_1();
+    [data-theme="0"] & {
+        border: 1px solid #D4DEE7;
+    }
+
+    &.unuse {
+        [data-theme="0"] & {
+            background: #f3f6f9;
+        }
+        [data-theme="1"] & {
+            background: $black-color-1;
+        }
+    }
+
+    input {
+        width: 100%;
+        background: transparent;
+        font-size: 14px;
+    }
+}
+
+.__form_tips {
+    position: absolute;
+    left: 50%;
+    bottom: 48px;
+    transform: translate(-50%, 0);
+    @include bg_color_4();
+    border-radius: 4px;
+    font-size: 12px;
+    [data-theme="0"] & {
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.1);
+        color: #3e4a59; 
+    }
+    [data-theme="1"] & {
+        color: $gray-color-2;
+    }
+    box-sizing: border-box;
+    @include font-family-normal();
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    width: 0;
+    height: 0;
+
+    &.active {
+        min-width: 250px;
+        height: auto;
+        opacity: 1;
+        padding: 10px 6px;
+    }
+
+    &::after {
+        content: ' ';
+        display: inline-block;
+        border: 6px solid transparent;
+        [data-theme="0"] & {
+            border-top: 6px solid #fff;
+        }
+        [data-theme="1"] & {
+            border-top: 6px solid $black-color-4;
+        }
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        margin-left: -6px;
+    }
+}

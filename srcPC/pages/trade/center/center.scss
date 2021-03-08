@@ -1,0 +1,218 @@
+@import "~assets/scss/vars.scss";
+
+@mixin center_color {
+    [data-theme="0"] & {
+        color: rgba(29,32,36,0.6);
+    }
+    [data-theme="1"] & {
+        color: $gray-color-2;
+    }
+}
+
+@mixin center_border($b) {
+    @if $b == bottom {
+        [data-theme="0"] & {
+            border-bottom: 1px solid rgba(229, 237, 243, 1);
+        }
+        [data-theme="1"] & {
+            border-bottom: 1px solid $black-color-4;
+        }
+    }
+    @if $b == top {
+        [data-theme="0"] & {
+            border-top: 1px solid rgba(229, 237, 243, 1);
+        }
+        [data-theme="1"] & {
+            border-top: 1px solid $black-color-4;
+        }
+    }
+}
+
+$blue: #007AFF;
+$red: #E5494D;
+$green: #00D764;
+$down-font-color: $red;
+$up-font-color: $green;
+
+.down {
+    color: $down-font-color;
+}
+.up {
+    color: $up-font-color
+}
+.buy {
+    color: $green;
+}
+.sell {
+    color: $red;
+}
+
+.ex-tab-list {
+    display: flex;
+    padding-top: 4px;
+    width: 100%;
+    padding: 4px 0 0px 0;
+    [data-theme="0"] & {
+        background: rgba(243,245,249,1);
+    }
+    [data-theme="1"] & {
+        background-color: $black-color-1;
+    }
+    .ex-tab {
+        display: inline-block;
+        margin-top: 6px;
+        padding-bottom: 4px;
+        line-height: 17px;
+        font-size: 13px;
+        @include font-family-bold();
+        @include center_color();
+        span {
+            padding: 0px 6px;
+            [data-theme="0"] & {
+                border-left: 1px solid rgba(205,204,204,1);
+            }
+        }
+        &:first-child span {
+            border: none;
+        }
+        &.active-side span {
+            border: none;
+        }
+        &.active {
+            margin-top: 0;
+            padding-top: 6px;
+            line-height: 17px;
+            border-radius: 4px 4px 0px 0px;
+            @include bg_color_1();
+            [data-theme="1"] & {
+                color: $white-color;
+            }
+            span {
+                border: none;
+            }
+        }
+
+        .favorite-icon {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0px 6px;
+            padding: 0;
+            @include background_common_img_suffix('favorite-tab', 'svg', 'png');
+            &.active {
+                background: url('~assets/imgs/trade/favorite-active.svg') no-repeat center;
+            }
+        }
+    }
+}
+
+.__center-title {
+    padding: 6px;
+    line-height: 17px;
+    font-size: 13px;
+    @include font-family-bold();
+    @include center_color();
+    [data-theme="0"] & {
+        background: #f7f9fb;
+    }
+    [data-theme="1"] & {
+        background: $black-color-1;
+    }
+}
+
+.__center-tb-title {
+    display: flex;
+    flex-direction: row;
+    padding: 0 6px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    font-weight: 400;
+    [data-theme="0"] & {
+        border-bottom: 1px solid rgba(212,222,231,0.5);
+        color: rgba(94,104,117,0.58);
+    }
+    [data-theme="1"] & {
+        border-bottom: 1px solid $black-color-4;
+        color: $gray-color-2;
+    }
+}
+.__center-tb-row {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: $font-H;
+    [data-theme="0"] & {
+        color: $gray-color-4;
+    }
+    [data-theme="1"] & {
+        color: $white-color;
+    }
+    &:hover {
+        background: rgba(75, 116, 255, 0.1);    
+    }
+}
+.__center-tb-item {
+    position: relative;
+    text-align: right;
+    flex: 1;
+    padding: 0 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    &:first-child {
+        text-align: left;
+    }
+    &.left {
+        text-align: left;
+    }
+
+    &.tx-pair {
+        min-width: 95px;
+    }
+    &.depth {
+        flex: none;
+        &.price {
+            flex: 1;
+        }
+        &.quantity {
+            width: 85px;
+        }
+        &.amount {
+            flex: 1;
+            box-sizing: border-box;
+        }
+    }
+
+    .favorite-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 4px 0;
+        @include background_common_img_suffix('favorite', 'svg', 'png');
+        &.active {
+            background: url('~assets/imgs/trade/favorite-active.svg') no-repeat center left;
+        }
+    }
+    .describe {
+        position: relative;
+        left: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.__ex-loading-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,1172 @@
+{
+    "lang": "日本語",
+    "help": "ヘルプ",
+    "start": "開始",
+    "login": "ログイン",
+    "regAcc": "登録",
+    "unlockAcc": "アカウントのアンロック",
+    "changeAcc": "アカウントの変更",
+    "existingAcc": "既存のアカウント",
+    "restore": "ニーモニックワードのインポート",
+    "register": "サインアップ",
+    "createAcc": "作成",
+    "settingAcc": "アカウントの設定",
+    "resetAcc": "アカウントのリセット",
+    "logout": "ログアウト",
+    "saveLogout": "ログアウト",
+    "blockHeight": "スナップショットブロック値",
+    "accountName": "アカウント名",
+    "action": "アクション",
+    "stakingAmount": "ステーキング量",
+    "submitStaking": "ステーキング申請",
+    "withdrawHeight": "予定スナップショット値",
+    "balance": "残高",
+    "dexBalance": "ViteX残高",
+    "addrName": "アドレス{index}",
+    "true": "正しい",
+    "false": "誤り",
+    "guide": {
+        "close": "閉じる",
+        "next": "次",
+        "closeTips": "ユーザーガイドをスキップ（非推奨）",
+        "trade": [
+            "資産管理はこちら（Web WalletとViteX）",
+            "未処理注文と注文履歴の確認し、取引の詳細を知る",
+            "マイニングへの参加、VXの取得、取引手数料の配当（マイニング配当）",
+            "その他の機能に関して：クォータの確保、SBP（Snapshot Block Producer）ランナー、SBPの投票、ERC20変換、トランザクションの詳細など"
+        ],
+        "assets": [
+            "取引所への入金",
+            "Walletへの出金",
+            "Cross-Chain Receive & Send"
+        ]
+    },
+    "dealReminder": {
+        "title": "取引通知",
+        "failTitle": "注文失敗",
+        "notice": "あなたの{time}の注文{amount} {token}（{token} / {token})は取引完了しました。詳細は注文履歴をご覧ください。",
+        "error": "あなたの{time}の注文{amount} {token}（{token} / {token})は取引に失敗しました。詳細は注文履歴をご覧ください。"
+    },
+    "pow": {
+        "ing": "PoWを実行してクォータを取得",
+        "no": "クオータ取得のためにPoWを実行したくない場合は、VITEをステークすることができます"
+    },
+    "addAccount": "アカウントの作成",
+    "saveQrcode": "QRコードを保存する",
+    "unlockSuccess": "アンロック成功",
+    "sendTrans": {
+        "send": "トランザクションを送信",
+        "symbol": "送信"
+    },
+    "compliance": {
+        "text": "ViteXは、香港、キューバ、イラン、北朝鮮、クリミア、スーダン、マレーシア、シリア、アメリカ[プエルトリコ、アメリカ領サモア、グアム、北マリアナ島などのアメリカのすべての地域を含む] 、米国領バージン諸島（セントクロア島、セントジョン島、セントトーマス島）、バングラデシュ、ボリビア、エクアドル、キルギスタン。以上の国/地域のお客様にはサービスを提供していません。 詳細については、利用規約とプライバシーポリシーをご覧ください。",
+        "title": "重要なお知らせ"
+    },
+    "errCode": {
+        "35003": "{name} ID が重複しています。再申請してください。",
+        "35004": "無効なパラメーター",
+        "35005": "トランザクションの送信頻度が高過ぎますので、しばらくして再度お試しください",
+        "35006": "コントラクトメソッドが存在しません",
+        "35011": "ネットワークが混雑しています",
+        "36001": "トランザクションの受信を完了するまで転送を実行できません",
+        "36002": "システム検証に失敗。再度お試しください",
+        "36003": "システム検証に失敗。再度お試しください",
+        "36004": "システム検証に失敗。再度お試しください",
+        "36005": "スナップショットブロックの値が異常ですので再度お試しください",
+        "37001": "オーダーナンバー形式が間違っています",
+        "37002": "オーダー形式が間違っています",
+        "37003": "オーダープライス形式が間違っています",
+        "37004": "オーダートランザクションボリュームが異常です",
+        "37005": "オーダートランザクション値が小さすぎます",
+        "37006": "既存取引市場",
+        "37007": "オーダー取引市場が存在しません",
+        "37008": "注文情報検索で異常が発生しています",
+        "37009": "取り消しオーダーは現在のアドレスにありません",
+        "37010": "このオーダーステータスは取り消すことができません"
+    },
+    "txType": {
+        "SBPreg": "SBP登録",
+        "UpdateReg": "アップデート登録",
+        "RevokeReg": "取り消し登録",
+        "RetrieveReward": "報酬を取得",
+        "Voting": "投票",
+        "RevokeVoting": "投票の取り消し",
+        "GetQuota": "クオータを獲得",
+        "WithdrawalOfQuota": "ステーキングクォータの送信",
+        "Mintage": "トークン発行",
+        "MintageIssue": "追加のトークン発行",
+        "MintageBurn": "トークンの破壊",
+        "MintageTransferOwner": "所有権の譲渡",
+        "MintageChangeTokenType": "トークンタイプの編集",
+        "MintageCancelPledge": "ステークトークンの取得",
+        "DexFundUserDeposit": "ViteX 預け入れ",
+        "DexFundUserWithdraw": "ViteX 引き出し",
+        "DexFundNewOrder": "ViteX オーダー作成",
+        "DexTradeCancelOrder": "ViteX オーダー取り消し",
+        "DexFundNewMarket": "ViteX トークンリスティング",
+        "CreateContractReq": "コントラクトの作成",
+        "DexFundPledgeForVx": "ViteX ステーキング",
+        "DexFundPledgeForVip": "ViteX VIP",
+        "TxReq": "転送",
+        "RewardReq": "転送",
+        "TxRes": "転送",
+        "TxResFail": "転送",
+        "SendRefund": "転送",
+        "GenesisReceive": "ジェネシス",
+        "DexFundTransferTokenOwner": "オペレーターキー所有権の譲渡",
+        "DexFundMarketOwnerConfig": "オペレーターの取引ペア構成",
+        "DexFundBindInviteCode": "リファラルコードの使用",
+        "DexFundNewInviter": "リファラルコードの生成"
+    },
+    "btn": {
+        "cancel": "キャンセル",
+        "login": "ログイン",
+        "imported": "インポートアカウント",
+        "back": "戻る",
+        "submit": "提出",
+        "next": "次のステップ",
+        "understand": "了解",
+        "edit": "編集",
+        "reReg": "再登録",
+        "otherProd": "Viteの他の製品を使用する",
+        "known": "知っています"
+    },
+    "hint": {
+        "noNet": "ネットワークが検出されませんでした",
+        "pwErr": "パスワードが間違っています！",
+        "pwEmpty": "パスワードを入力して下さい！",
+        "noData": "No Data",
+        "err": "エラーが発生しました",
+        "request": "リクエストが送信されました。しばらくお待ちください。",
+        "copy": "コピーが成功しました",
+        "copyShare": "Copy share link successful!",
+        "addrFormat": "アドレス形式が間違っています",
+        "amtFormat": "数値形式が間違っています",
+        "transSucc": "トランザクション成功",
+        "insufficientBalance": "残高不足",
+        "validMaxDigit": "最大{digit}小数値です",
+        "nodeErr": "フルノードが異常です。再度お試しください。",
+        "bigger0": "この値は{0} より大きい数字にしなければなりません",
+        "operateSuccess": "オペレーション成功",
+        "operateFail": "操作に失敗しました。",
+        "unreceived": "使用前にウォレットをアンロックしてください",
+        "unLogin": "Please login before using referral code"
+    },
+    "beforeUse": {
+        "title": "利用前に読んで下さい",
+        "text1": "For your funds' safety, account creation function is not currently supported on web wallet. Please download Vite App to create an account. Vite platform would like to warn you that if you visit a phishing website or lose you backup, our company cannot recover your funds.",
+        "text2": "私たちのWebサイトはあなたの秘密鍵やシードフレーズを保存しません。ブラウザの変更、ローカルCookieのクリア、PCの変更をする場合は、シードフレーズを使用してアカウントを復元する必要があります。",
+        "text3": "シードフレーズを正確に記録して安全に保存するように、適切な予防措置を講じてください。 わずかなエラーでも、アドレスを正常に復元できなくなります。"
+    },
+    "preview": {
+        "t": "バージョン {version}",
+        "txt1": "x.vite.netは、ウォレットと取引所を統合するWebプラットフォームです。 Vite Labsにより公式に開始されました。",
+        "txt2": "現在のバージョンには、ウォレット、ViteX、クォータ用ステーキング、SBP登録、投票、トークン発行の機能が含まれています。 新しくリリースされたViteConnect機能をお試しください。Viteアプリを使用して、QRコードをスキャンしてログインできます。",
+        "txt3": "ViteXが正式にローンチしました。取引を始めましょう。",
+        "v": "現在のバージョン: {version}"
+    },
+    "pwdConfirm": {
+        "conf": "パスワードフリーモードを開き、全てのトランザクションプロセス中にパスワードを入力しないようにします。",
+        "title": "パスワード",
+        "placeholder": "パスワードを入力してください",
+        "unlockAcc": "最初に{name}をアンロックしてください"
+    },
+    "quotaConfirm": {
+        "title": "クオータが不足しています",
+        "cancelContent": "クォータが不十分なため{操作}できません。 {operate}のクオータのためにVITEをステークする必要があります",
+        "goQuota": "Stake VITE",
+        "noOperate": "Not {operate} yet"
+    },
+    "mnemonic": {
+        "title": "ニーモニック",
+        "restore": "シードフレーズによるアカウントの復元",
+        "record": "シードフレーズの生成",
+        "prompt": "ニーモニックシードフレーズは、ウォレットを復元する唯一の方法です。 フレーズを書き留めて、自分だけがアクセスできる安全な場所に保管することを強くお勧めします。",
+        "placeholder": "Please enter your mnemonic seed phrase. Example: apple banana peach mango pear ...",
+        "empty": "Seed phrase cannot be empty",
+        "error": "Wrong seed phrase. Try again",
+        "hint": "例：apple banana peach mango pear ...",
+        "change": "{len}ニーモニックワードに切り替え"
+    },
+    "setting": {
+        "title": "アカウント設定",
+        "config": "基本設定",
+        "currency": "デフォルト通貨",
+        "secure": "セキュリティ",
+        "lang": "言語",
+        "block": "現在のブロックハイト",
+        "version": "バージョン",
+        "service": "カスタマーサービス",
+        "site": "Vite公式サイト",
+        "sys": "システムポータル",
+        "open": "Vite Github",
+        "addAddr": "アドレスの追加",
+        "addrList": "アドレス管理",
+        "setDefault": "デフォルトアドレスの選択",
+        "autoLogout": "自動ログアウト時間",
+        "noPass": "パスワードフリーモードに戻る",
+        "explorer": "ブロックエクスプローラー",
+        "netInfo": "ネットワーク情報",
+        "logoutDescribe": "このページを離れると、アカウントは自動的にログアウトします",
+        "timeList": {
+            "5": "5分",
+            "10": "10分",
+            "30": "30分",
+            "60": "1時間",
+            "720": "12時間"
+        }
+    },
+    "create": {
+        "input": "パスワードを入力して下さい",
+        "again": "パスワードを確認してください",
+        "choose": "アカウントを選択して下さい",
+        "finish": "完了",
+        "agreementPre": "Vite WalletとViteXに関して同意します",
+        "agreement": "利用規約とプライバシーポリシー",
+        "hint": {
+            "nameInput": "アカウント名を入力してください",
+            "nameLong": "名前は{long} 文字以上入力できません",
+            "long": "パスワードは32文字をを超えてはいけません。",
+            "name": "アカウント名は英語と中国語の文字、数字、アンダーラインのみをサポートしています",
+            "consistency": "同じパスワードを入力してください。",
+            "pwFormat": "Wrong password format. The password should only contain digits, letters and symbols."
+        }
+    },
+    "startCreate": {
+        "notice": "For your funds' safety, account creation function is not currently supported on web wallet. Please download Vite App to create an account.",
+        "goLogin": "ログイン",
+        "goDex": "ViteXへ行く"
+    },
+    "keystore": {
+        "title": "キーストア",
+        "dragDrop": {
+            "text": "ここにファイルをドラッグ&ドロップしてください",
+            "err1": "ファイルが違います！",
+            "err2": "インポートできるファイルは1つだけです！",
+            "guide": "インポートするフォルダーを開く",
+            "hint": "キーストアファイルのインポートによるログインはマルチアドレスの作成をサポートできないため、ニーモニックシードフレーズを使用することをお勧めします。"
+        }
+    },
+    "tokenCard": {
+        "moreRecords": "その他の記録",
+        "others": "その他",
+        "assetSpread": "ポートフォリオ",
+        "saveSuccess": "正常に保存されました",
+        "heads": {
+            "name": "名前",
+            "balance": "残高",
+            "onroad": "ウォレット未受取額",
+            "gate": "ウォレット クロスチェ－ンゲートウェイ",
+            "totalExAmount": "取引所合計残高",
+            "availableExAmount": "取引可能残高",
+            "balanceTips": "You can transfer your assets to other addresses via clicking 'Send' button",
+            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Vite Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
+            "availableExAmountTips": "You can transfer your assets from Vite Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Vite Wallet. No transaction fees caused during these processes."
+        },
+        "actionType": {
+            "SEND": "送信",
+            "RECEIVE": "受信",
+            "CHARGE": "受信",
+            "WITHDRAW": "送信",
+            "EXCHARGE": "入金",
+            "EXWITHDRAW": "引き出し",
+            "EXRECRODS": "履歴",
+            "RECRODS": "履歴"
+        },
+        "addToken": {
+            "title": "トークンを追加",
+            "placeholder": "Please enter token name or TokenID",
+            "lTxt": "キャンセル",
+            "rTxt": "追加"
+        },
+        "type": {
+            "native": "ネイティブトークン",
+            "crossGate": "Cross-Chain Coins"
+        },
+        "assetType": {
+            "TOTAL": "全ての資産",
+            "EX": "取引所資産",
+            "WALLET": "ウォレット資産"
+        },
+        "tokenInfo": {
+            "tabName": "詳細",
+            "title": "{tokenSymbol} 情報",
+            "saveGate": "保存",
+            "labels": {
+                "tokenId": "トークンID",
+                "tokenName": "名前",
+                "totalSupply": "総供給",
+                "total": "Circulating Supply",
+                "overview": "はじめに",
+                "type": "タイプ",
+                "gate": "Cross-Chain Gateway",
+                "website": "Webサイト",
+                "whitePaper": "White Paper",
+                "explorer": "Explorer",
+                "github": "Github",
+                "media": "Social Media",
+                "crossType": "Cross-Chain",
+                "originType": "Native",
+                "viewmore": "View More"
+            },
+            "reIssuable": {
+                "true": "再発行可能",
+                "false": "再発行不可"
+            }
+        },
+        "gateInfo": {
+            "clickCustomer": "リクエストを送信する",
+            "name": "ゲートウェイネーム",
+            "customer": "カスタマーサービス",
+            "privacy": "サービス利用規約",
+            "clickPrivacy": "{gate} 公式ゲートウェイ利用規約",
+            "gateSetting": "ゲートウェイの構成",
+            "tabName": "ゲートウェイの詳細",
+            "selfdefined": "ゲートウェイのカスタマイズ",
+            "officalNet": "Webサイト",
+            "introduction": "概要",
+            "token": "発行済みトークン",
+            "setting": "ゲートウェイインターフェイス",
+            "nodeDesc": "ユーザーガイド",
+            "settingPlaceholder": "ゲートウェイリンクアドレスを入力して下さい",
+            "nodeDescStr": "This function only works for cross-chain coins, do not use this on built-in tokens. Meanwhile, please be careful about unfamiliar gateway links. By continuing to use our platform, you agree and acknowledge that Vite Labs would not be responsible for the loss of your fund and other negative consequences caused. Fill out the gateway link below if you need to use gateway, the link will come into effect after you hit save."
+        },
+        "depositRecord": {
+            "tabName": "Receive History",
+            "heads": [
+                "時間",
+                "量",
+                "ステータス",
+                "{outChain} Hash",
+                "vite Hash",
+                "手数料"
+            ],
+            "statusMap": {
+                "OPPOSITE_PROCESSING": "{outChain}は確認を待っています{confirms}",
+                "OPPOSITE_CONFIRMED_FAIL": "{outChain}処理に失敗しました",
+                "OPPOSITE_CONFIRMED": "ゲートウェイ受信",
+                "TOT_CONFIRMED": "完了",
+                "BELOW_MINIMUM": "失敗しました",
+                "TOT_PROCESSING": "VITEチェーン確認待ち"
+            }
+        },
+        "withdrawRecord": {
+            "tabName": "送金履歴",
+            "heads": [
+                "時間",
+                "量",
+                "ステータス",
+                "vite Hash",
+                "{outChain} Hash",
+                "手数料"
+            ],
+            "statusMap": {
+                "TOT_PROCESSING": "VITEチェーン未確認{confirms}",
+                "TOT_CONFIRMED": "VITE確認済",
+                "TOT_EXCEED_THE_LIMIT": "送金額が制限を超えています",
+                "OPPOSITE_PROCESSING": "{outChain}は確認を待っています",
+                "OPPOSITE_CONFIRMED": "完了",
+                "WRONG_WITHDRAW_ADDRESS": "転送アドレスが正しくありません。"
+            }
+        },
+        "receive": {
+            "title": "受信",
+            "codeTips": "QRコードをスキャンして{tokenSymbol}を転送してください",
+            "addressTitle": "受取アドレス",
+            "amountTitle": "受信量",
+            "amountPlaceholder": "受信量を入力して下さい"
+        },
+        "charge": {
+            "title": "Cross-Chain Receive Funds",
+            "addrErr": "ゲートウェイノードに問題が発生しました ネットワーク設定を確認してください",
+            "addressTitle": "受取アドレス",
+            "labelTips": "(Please use this '{labelName}' with your recipient address, otherwise your assets will lose",
+            "labelCodeTips": "Please Scan the QR code from {labelName}",
+            "codeTips": "Scan QR code to deposit. Please send funds with the wallet that supports {tokenSymbol}",
+            "tips": [
+                "Cross-Chain Receive operation will do {tokenSymbol} Cross-Chain mapping to VITE network, you can still transfer the assets to other platform after receiving them",
+                "このアドレスから送信できるのは{tokenSymbol}のみで、金額は{min}未満にできません",
+                "{confirmationCount}の確認後にアセットを受け取ります しばらくお待ちください"
+            ]
+        },
+        "withdraw": {
+            "title": "Cross-Chain Send Funds",
+            "balanceErrMap": {
+                "notEnough": "残高不足",
+                "overMax": "Send amount should be less than {max}",
+                "lessMin": "Send amount should not be less than {min}"
+            },
+            "feeTips": "取引手数料の金額はゲートウェイオペレーターが設定します",
+            "addressErr": "アドレス形式が不正です",
+            "labels": {
+                "balance": "残高",
+                "address": "受取アドレス",
+                "amount": "量",
+                "fee": "手数料",
+                "all": "すべて"
+            },
+            "labelPlaceholder": "Please input {labelName}",
+            "amountPlaceholder": "Please input send amount which should not be less than {min}",
+            "addressPlaceholder": "Please enter {token} recipient address",
+            "successTips": "Transaction request has been sent",
+            "failTips": "ゲートウェイノードでエラーが発生しました ネットワーク設定を確認してください"
+        },
+        "nodeErr": "ゲートウェイノードが無効です ゲートウェイ設定を確認してください"
+    },
+    "viteExplorer": {
+        "title": "ブロックエクスプローラー"
+    },
+    "wallet": {
+        "title": "クオータ管理",
+        "help": {
+            "title": "クォータの簡易解説"
+        },
+        "transfer": "Send Funds",
+        "getTestToken": "テストトークンの取得",
+        "transDetail": "取引の詳細",
+        "address": "アドレス",
+        "fundFloat": "未受信",
+        "pend": "保留中",
+        "inAddress": "受取アドレス",
+        "sum": "量",
+        "remarks": "コメント",
+        "remarksLong": "残り{len}バイト",
+        "totalAsset": "資産合計",
+        "placeholder": {
+            "amount": "数値を入力してください",
+            "remarks": "コメントを入力してください。",
+            "addr": "アドレスを入力してください"
+        },
+        "hint": {
+            "token": "VITEテストトークンがアカウントに送信されました アカウントを確認してください！",
+            "tErr": "テストトークンの取得に失敗しました！",
+            "amount": "金額は0より大きい必要があります"
+        },
+        "trans": {
+            "powErr": "PoWの実行中にエラーが発生しました もう一度お試しください",
+            "powTransErr": "PoWのクォータが不十分です VITEをステークしてクォータを取得することをお勧めします。"
+        }
+    },
+    "walletMintage": {
+        "title": "トークン発行",
+        "address": "発行アドレス",
+        "tokenName": "トークン名",
+        "tokenSymbol": "トークンシンボル",
+        "totalSupply": "総供給量",
+        "decimals": "小数",
+        "isReIssuable": "再発行可能",
+        "maxSupply": "最大供給量",
+        "ownerBurnOnly": "所有者によるバーン",
+        "isOwnerBurnOnly": "所有者によるバーン",
+        "mint": "確認",
+        "tokenList": "発行済みトークン",
+        "submit": "提出",
+        "cancel": "キャンセル",
+        "getListFail": "トークンリストを取得できません しばらくしてからもう一度お試しください",
+        "mintageConfirm": {
+            "title": "トークン発行情報の確認",
+            "balance": "残高",
+            "fee": "発行手数料",
+            "btn": "確認"
+        },
+        "reIssuableConfirm": {
+            "title": "発行不可に変更",
+            "text": "{tokenName}を発行不可に変更してください"
+        },
+        "changeOwnerConfirm": {
+            "title": "オーナー移転",
+            "address": "受取アドレス"
+        },
+        "issueConfirm": {
+            "title": "再発行",
+            "amount": "量",
+            "address": "受取人住所 *",
+            "overAmount": "再発行されたトークンが上限量を超えています"
+        },
+        "hint": {
+            "tokenName": "トークン名には、大文字、小文字、スペース、下線を含む1〜40文字を使用する必要があります 連続したスペースと数字はサポートされていません。",
+            "tokenSymbol": "トークンシンボルは1〜10文字である必要があり、大文字と数字のみがサポートされています。",
+            "success": "トークン発行成功",
+            "fail": "トークン発行失敗"
+        },
+        "err": {
+            "tokenNameFormat": "トークン名形式が正しくありません",
+            "tokenNameNull": "トークン名が必要です",
+            "tokenSymbolFormat": "トークンシンボル形式が正しくありません",
+            "tokenSymbolNull": "トークンシンボルが必要です",
+            "supplyMax": "トークン発行量が過剰です",
+            "totalSupplyFormat": "総供給量形式が間違っています",
+            "totalSupplyNull": "総供給量の入力が必要です",
+            "maxSupplyNull": "最大供給量の入力が必要です",
+            "maxSupplyMin": "総供給量よりも大きくしなければならなりません",
+            "decimalsNull": "小数の入力が必要です",
+            "decimalsFormat": "小数の形式が間違っています",
+            "decimalsMax": "小数が範囲外です",
+            "maxSupplyFormat": "総供給量形式が間違っています"
+        }
+    },
+    "walletQuota": {
+        "title": "クオータ管理",
+        "help": {
+            "title": "クォータの簡易解説"
+        },
+        "myQuota": "所有クオータ",
+        "maxTxNum": "Txsの最大値",
+        "beneficialAddr": "受信先アドレス",
+        "fromAddr": "住所の控除",
+        "time": "ステーキング凍結期間",
+        "aboutDays": "約{days}日",
+        "amountPlaceholder": "ステーキング金額を入力して下さい 最小{num} VITE",
+        "limitAmt": "ステーキング額は{num}未満にしないでください。",
+        "addrPlaceholder": "受信先アドレスを入力してください",
+        "inputWithdrawAmount": "引き出し量を入力してください",
+        "pledgeFail": "送信できませんでした",
+        "canclePledgeFail": "失敗",
+        "maturity": "ステーキングの有効期限が切れました！",
+        "minAmt": "引き出し金額は{num} VITEより小さくすることはできません",
+        "gotoStake": "最初に十分なVITEをステーキングしてください",
+        "maxAmt": "引き出し金額は[{minAmount}、{maxAmount}]である必要があります",
+        "cancelLimitAmt": "ステーキング額は{num}未満にはできません",
+        "withdrawalStaking": "ステークトークンの引き出し",
+        "myAddr": "Current Address",
+        "confirm": {
+            "help": {
+                "t1": "クオータとは？",
+                "txt1": "Viteシステムでは、ユーザーは料金を支払うことでトランザクションに必要なガスを購入するのではなく、クォータベースのモデルを通じてコンピューティングリソースを取得します。このクォータベースのリソース構成プロトコルにより、ユーザーは2つの方法でより高いリソースクォータを取得できます。VITEステーキングによるクォータ取得とPoWの実行です。",
+                "t2": "ステーキングとは？",
+                "txt2": "Viteシステムでは、ユーザーはVITEステークして一定量のクォータを取得できます。 ステーキングの最小値は134 VITEで、最大制限はありません。 一方、Viteシステムは、Aアドレスがステークし、取得したクォータをBアドレスに割り当てることもサポートしています。 ユーザーがステークを申請すると、VITEは別のユーザーではなくスマートコントラクトアドレスに送信され、ステーキング申請したユーザーのみがステーキング金額を管理するためのアクセス権を持ちます。",
+                "t3": "PoWとは？",
+                "txt3": "Proof of Work（PoW）は、一定量の作業の実行を証明するためのプロトコルであり、DDoS攻撃やその他のサービスの悪用を阻止する手段でもあります。 プロセスとして、一定量のコンピューティングの実行が必要となります。つまり、計算に要する時間としてある程度の時間がかかる場合があります。 Viteシステムでは、ユーザーはPoWを実行することで無料の割り当てを取得できます。また、取得した割り当てを通じてトランザクションを送信することもできます。"
+            },
+            "cancel": {
+                "describe": "現在のステーク量は{amount} VITEです 引き出し確認をしてください。",
+                "rightBtn": "準備はいいですか？",
+                "leftBtn": "引き出しのキャンセル"
+            },
+            "submit": {
+                "describe": "必ず{amount} VITEをステークしてクォータを獲得してください ステーキングが有効になってから約3日後に撤回することができます",
+                "rightBtn": "確認",
+                "leftBtn": "キャンセル"
+            }
+        },
+        "list": {
+            "title": "ステーキングリスト",
+            "total": "合計ステーキング量{amount} VITE",
+            "amount": "量",
+            "withdrawTime": "予定期日",
+            "unexpired": "ステークされたトークンを期日まで撤回することはできません",
+            "vip": "このステーキングアクションは、ViteXでデフォルトでVIPを開くためのものです ViteXに移動してVIPをキャンセルしてください",
+            "mining": "このステーキングは、ViteXのマイニングとしてのステーキングです ViteXマイニングページにアクセスして取得してください",
+            "other": "このステーキングは他の方法でステークされており、この取得はサポートされていません"
+        }
+    },
+    "walletTransList": {
+        "title": "トランザクション",
+        "tType": {
+            "title": "タイプ",
+            "symbol": "タイプ"
+        },
+        "status": {
+            "title": "ステータス",
+            "unconfirmed": "未承認",
+            "confirms": "確認",
+            "confirmed": "確認する"
+        },
+        "timestamp": "タイムスタンプ",
+        "tAddress": "アドレス",
+        "sum": "量"
+    },
+    "walletSBP": {
+        "title": "SBP",
+        "help": {
+            "title": "SBPについて",
+            "text": "SBP（Snapshot Block Producer）is a node that has right to create blocks, you can register to become a SBP candidate by staking a certain amount of VITE, each round (about 75 seconds) will elect 25 SBPs, the SBPs will be elected from random 23 out of top 25 candidate nodes, plus random 2 out of the candidate nodes ranking 26th-100th on the list. The 50% of total SBP rewards will be allocated to the block creation node, the other 50% will be allocated to nodes that are ranked on top 100 as voting rewards. One registration address (staking address) can register multiple block creation nodes (node names), a node name cannot be used if the node name has been registered by a registration address. A node name can switch block creation address, however, block creation address cannot be reused by other node names."
+        },
+        "register": "SBP登録",
+        "cancel": "SBPの取消",
+        "cancelBtn": "キャンセル",
+        "rewardBtn": "報酬を受け取る",
+        "noReward": "報酬なし",
+        "rewardConfirm": {
+            "title": "報酬を受け取る",
+            "describe1": "毎日13:00:00（UTC + 8）に受取可能な報酬が更新され、{time}まで申し立てることができます",
+            "describe2": "マイニング報酬詳細の照会では、次のことができます",
+            "describe3": "ここをクリック",
+            "describe4": "報酬は、請求リクエストを送信した後、Vite Webウォレットアドレスに送信されます ウォレットホームページで確認してください  注：申し立てアクションを繰り返さないでください",
+            "leftBtn": "今はやめる",
+            "rightBtn": "全部受け取る"
+        },
+        "confirm": {
+            "title": "SBP候補者の登録",
+            "describe": "登録を送信すると、現在のアドレス内の{amount} VITEは約90日間ロックされます ロック解除後は、ステーキングアドレスに戻ります ",
+            "leftBtn": "登録されていません",
+            "rightBtn": "登録準備ができました",
+            "edit": {
+                "title": "ブロック作成アドレスを変更",
+                "placeholder": "新しいブロック作成アドレスを入力してください",
+                "btn": "変更を確認"
+            }
+        },
+        "section1": {
+            "title": "登録申請",
+            "nodeName": "ノード名",
+            "producerAddr": "ブロック作成アドレス",
+            "quotaAddr": "ステーキングアドレス",
+            "quotaTime": "ステーキング期間",
+            "time": "7776000スナップショットブロック（約90日）",
+            "confirmBtn": "送信",
+            "namePlaceholder": "ノード名を入力してください",
+            "nameHint": "40文字以内で、英字（大文字と小文字の両方）、数字、「_」、「」をサポートします。",
+            "nameErr": "このノード名が不正です",
+            "nameUsed": "このノード名は使用されています",
+            "addrPlaceholder": "スナップショットブロック作成アドレスを入力してください",
+            "addrHint": "ブロック作成アドレスはフルノードを実行し続ける必要があります",
+            "addrErr": "アドレスが不正です",
+            "addrUsed": "このアドレスは使用されています",
+            "registerSuccess": "登録リクエストが送信されました",
+            "registerFail": "登録に失敗しました"
+        },
+        "section2": {
+            "title": "登録情報",
+            "update": "変更",
+            "updateFail": "変更リクエストを送信できませんでした",
+            "cancel": "取り消し",
+            "cancelFail": "取り消しリクエストを送信できませんでした",
+            "expireDate": "有効期限：{time}",
+            "cancelConfirm": {
+                "title": "SBP登録の取り消し",
+                "describe": "ステーキング値は取り消し後ステーキングアドレスに戻されます。SBPになるには登録を再送信する必要があります"
+            }
+        }
+    },
+    "walletVote": {
+        "title": "投票",
+        "help": {
+            "title": "投票について",
+            "text": "25のSBP（スナップショットブロックプロデューサー）への投票に参加できます。投票に使用できる票数は、投票アドレスが所有するVITEトークンの量に相当し、デフォルトの選択は前のラウンドの選択です。SBPは、上位25の候補ノードからランダムに選択された23に加え、リストで26番目から100番目にランク付けされた候補ノードからランダムに2つ、合計25のSBPから選択されます。"
+        },
+        "toReward": "報酬を見る",
+        "voting": "投票",
+        "search": "ノード名またはブロック作成アドレスを入力してください",
+        "addrNoExistErr": "アドレスに取引記録がないため、今は投票できません",
+        "revokeVoting": "投票の取り消し",
+        "section1": {
+            "title": "投票",
+            "head": [
+                "名前",
+                "ステータス",
+                "投票",
+                "投票状況",
+                "アクション"
+            ],
+            "nodeStatusMap": {
+                "1": "アクティブ",
+                "2": "非アクティブ"
+            },
+            "voteStatusMap": {
+                "voted": "投票成功",
+                "voting": "投票",
+                "canceling": "取り消し中",
+                "voteNotWork": "投票の取り消し"
+            },
+            "hoverHelp": "このノード{nodeName}は取り消されています。直接投票するか、投票を取り消すことができます。そうしない場合{nodeName}の再登録後に元の投票結果が回復します",
+            "confirm": {
+                "cancelText": "まだです",
+                "submitText": "確認"
+            },
+            "revoke": "取り消し",
+            "operateBtn": "取り消し",
+            "cancelVoteErr": "投票の取り消しに失敗しました もう一度お試しください"
+        },
+        "section2": {
+            "title": "SBP候補",
+            "head": [
+                "ランク",
+                "ノード名",
+                "アドレス",
+                "投票",
+                "アクション"
+            ],
+            "confirm": {
+                "normal": {
+                    "content": "1つのSBPのみに投票できますが{name}に投票してもよろしいですか？",
+                    "cancelText": "まだです",
+                    "submitText": "投票準備はいいですか？"
+                },
+                "cover": {
+                    "content": "既に{nodeName}に投票していますが、現在の投票履歴を上書きしてもよろしいですか？",
+                    "cancelText": "確認",
+                    "submitText": "キャンセル"
+                }
+            },
+            "noSearchData": "コンテンツが見つかりません 別の入力をお試しください",
+            "operateBtn": "投票",
+            "voteErr": "投票に失敗しました 再試行して下さい。"
+        }
+    },
+    "assets": {
+        "title": "資産",
+        "notice": {
+            "title": "重要なお知らせ",
+            "contentProvider": "このサービスは{gate}によって提供されます",
+            "contentOther": "あなたは、Vite Labsが{gate}によって引き起こされたトラブルに対して責任を負わないことに同意し、認めます。 Viteプラットフォームは、{gate}とViteプラットフォームのユーザーの間で発生する可能性のあるトラブルには関与しません。",
+            "contentAgree": "あなたは{gate}のサービスを引き続き使用することを承認し同意します。",
+            "agreement": "利用規約、取引条件、プライバシーポリシー",
+            "contentUngree": "{gate}のサービスを使用する前に条件に同意してください",
+            "hint": "支払いプロセスで問題が発生した場合は、{gate}のカスタマーサービスにお問い合わせください。",
+            "next": "確認して続行"
+        },
+        "vb": {
+            "title": "ViteConnect",
+            "connect": {
+                "tips": "Vite WalletアプリでQRコードをスキャンする"
+            },
+            "confirm": {
+                "tips": "VITEウォレットアプリで取引を確認してください"
+            },
+            "start": {
+                "scan": "Vite WalletアプリでQRコードをスキャンしてください",
+                "downloadTips": "Vite Walletアプリをまだ持っていませんか？",
+                "download": "Vite Walletをダウンロード"
+            },
+            "accountName": "ViteConnect アドレス"
+        },
+        "invite": {
+            "inviteTitle": "友達を招待",
+            "receiveInviteTitle": "リファラルコードの使用",
+            "myCode": "リファラルコード: ",
+            "codeLable": "リファラルコード",
+            "invited": "あなたはすでに招待を受け入れていて、紹介コードは次のとおりです:",
+            "genCode": "リファラルコードの生成",
+            "cost": "費用",
+            "formatErr": "リファラルコードの形式が異なります",
+            "noResult": "エラー：結果が見つかりません 再度お試しください",
+            "successToast": "リクエストが送信されました",
+            "failToast": "リクエストを送信できませんでした",
+            "notEnough": "取引所残高が不足しています",
+            "avaliable": "残高",
+            "inviteNum": "招待",
+            "inviteBenifit": "リファラルマイニング収入",
+            "inviteRule": "ルール",
+            "ruleItems": [
+                "あなたは<span class = 'strong'> 1000 VITE </ span>を使って紹介コードを作成できます。このファンドは配当プールに入れられ、VX保有者に分配されます",
+                "紹介コードを使用するユーザーによって生成された取引手数料の<span class = 'strong'> 5％</ span>は、VXをマイニングできる取引手数料として扱われます。",
+                "リファラルコードを使用するトレーダーは、取引中に<span class = 'strong'> 10％</ span>割引を受けることができます"
+            ]
+        }
+    },
+    "walletConversion": {
+        "title": "Vite変換",
+        "help": {
+            "title": "VITE変換の簡単な説明",
+            "text": "You can convert ERC20 VITE into VITE at Vite Pre-Mainnet through VITE conversion. During conversion, your ERC20 VITE will be transferred to Ethereum black hole address: 0x1111111111111111111111111111111111111111, and you will receive the same amount of VITE in your Vite address after the transaction to Ethereum black hole address has completed. During the conversion, fee of transaction to the Ethereum black hole address come from your current ETH address. After submitting the conversion, please wait at least 30 confirmations in Ethereum network, you can find the transaction history in conversion history."
+        },
+        "gas": "マイニング手数料",
+        "record": "変換履歴",
+        "aboutPrice": "約{amount}ETH",
+        "note": "変換を送信後、しばらくお待ちください。変換されたVITEは、Ethereumトランザクションの確認が30回完了するまで受信できません。Ehtereumトランザクションレコードは、Conversion Historyセクションで表示できます。",
+        "exchange": {
+            "vite": "変換",
+            "viteAddr": "入金アドレス",
+            "viteAmount": "変換量",
+            "btn": "\n変換する準備ができました",
+            "success": "変換成功：Ethereumトランザクションが確認されてからVITEをアカウントに取得するのに約20分かかる場合があります。"
+        }
+    },
+    "tradeCenter": {
+        "title": "取引所",
+        "marketClosed": "{symbol}マーケットは停止しています",
+        "mergeDepth": "グループ",
+        "depthStep": "{step}桁",
+        "blocking": "ネットワークの混雑が発生しています しばらくしてからもう一度お試しください",
+        "supportMining": "Mineable Trading Pairs",
+        "operator": {
+            "noName": "Anonymous Operator",
+            "overview": "はじめに",
+            "txPair": "トレーディングペア",
+            "confirmTitle": "リスク喚起",
+            "confirmText": "デジタル資産への投資には高いリスクが伴います。投資する前に、デジタル資産への投資のすべてのリスクを完全に理解し、その真正性、合法性、有効性を判断してください。 あなた自身のデジタル資産の対する投資決定に慎重になり、資産の損失に対する責任はご自身にあることを理解下さい。　",
+            "address": "Operator Address",
+            "name": "Operator Name"
+        },
+        "operatorTxPair": {
+            "title": "Trading Pair Details",
+            "tokenTab": "Token Details",
+            "operatorTab": "オペレータ詳細"
+        }
+    },
+    "trade": {
+        "search": "検索",
+        "txPair": "ペア",
+        "price": "価格",
+        "upDown": "Change%",
+        "txNum": "ボリューム",
+        "quantityTitle": "合計({quantity})",
+        "priceTitle": "価格({price})",
+        "amountTitle": "量({amount})",
+        "quantityTable": "数量",
+        "amountTable": "ボリューム",
+        "amount": "合計",
+        "newOrderSuccess": "注文リクエストが送信されました",
+        "newOrderFail": "注文失敗",
+        "depthView": "Depth",
+        "klineView": "トレーディングビュー",
+        "txPairDetail": {
+            "title": "トレーディングペアの詳細",
+            "24h": "24時間",
+            "openPrice": "公開",
+            "quantity": "マーケットボリューム",
+            "amount": "基本ボリューム",
+            "status": "ステータス",
+            "latest": "最新",
+            "buy": "購入価格",
+            "sell": "売却価格",
+            "diff": "差額"
+        },
+        "buy": {
+            "title": "購入{token}",
+            "price": "価格({token})",
+            "quantity": "量({token})"
+        },
+        "sell": {
+            "title": "売る{token}",
+            "price": "価格({token})",
+            "quantity": "量({token})"
+        },
+        "head": {
+            "latestPrice": "Last Price",
+            "updown": "24h Change",
+            "highPrice": "過去24時間高値",
+            "lowPrice": "過去24時間底値",
+            "quantity": "過去24時間ボリューム",
+            "tokenName": "トークン",
+            "originalSymbol": "シンボル",
+            "gateway": "ゲートウェイ",
+            "website": "公式ウェブサイト",
+            "explorer": "ブロックエクスプローラー",
+            "overview": "概要",
+            "tokenShow": "略称",
+            "tokenId": "Token ID",
+            "publisher": "発行者",
+            "total": "合計",
+            "tokenDigit": "小数",
+            "publisherDate": "発行日",
+            "type": "ステータス",
+            "tokenType0": "発行可能",
+            "tokenType1": "発行されていません"
+        },
+        "latestTx": {
+            "title": "最後の注文",
+            "time": "時間"
+        },
+        "depth": {
+            "buy": "購入",
+            "sell": "売却",
+            "all": "すべて"
+        },
+        "noData": {
+            "favorite": "お気に入りのがありません",
+            "search": "結果が見つかりません。"
+        },
+        "limitPrice": {
+            "title": "限度",
+            "fee": "手数料",
+            "text": "このページは、トランザクションデータのプレビューページです 取引するにはログインしてください。",
+            "validAmount": "ボリュームは{amount} {token}より大きくなければなりません",
+            "priceNotNull": "量を空にすることはできません",
+            "amountNotNull": "ボリュームを空にすることはできません",
+            "quantityNotNull": "数量は空にすることはできません",
+            "cancelVip": "キャンセル",
+            "openVip": "VIPになる",
+            "dexFee": "基本取引手数料：{fee}",
+            "operatorFee": "Zone 手数料 (オペレーターによって変わります): {fee}",
+            "vipFee": "VIP ディスカウント: {fee}",
+            "inviteFeeDiscount": "リファラルディスカウント: {fee} off",
+            "feeRule": "（基本取引手数料-VIP割引+ゾーン手数料）*紹介割引。 注意：料金の調整と割引は新しい注文にのみ影響し、以前の注文の料金は変わりません。"
+        },
+        "vipConfirm": {
+            "cancelVip": "VIPをキャンセル",
+            "openVip": "VIPになる",
+            "openStakingAmount": "VIPになるためのステーキング量",
+            "cancelStakingAmount": "回収可能なステーキング量",
+            "noBalance": "残高不足",
+            "openHint": "VIPになると0.1％の取引手数料割引の特典をお楽しみいただけます。 10,000 VITEのステーキング量は、30日後に手動で取得できます。",
+            "cancelHint": "約{time}でステーキング総量を取得できます。 取得するとVIP特権が失われます。",
+            "openSuccess": "成功しました！ VIPステータスは後で有効になります。",
+            "openFail": "VIPを適用できませんでした",
+            "cancelSuccess": "VIPをキャンセルしました",
+            "cancelFail": "キャンセルできませんでした"
+        }
+    },
+    "tradeAssets": {
+        "title": "支出",
+        "search": "トークン名を入力してください",
+        "operate": "アクション",
+        "all": "すべて",
+        "confirmTable": {
+            "title": "詳細記録",
+            "heads": [
+                "日付",
+                "トークン",
+                "タイプ",
+                "量"
+            ]
+        },
+        "pwdConfirm": {
+            "cancelTxt": "キャンセル"
+        },
+        "table": {
+            "heads": [
+                "トークン",
+                "合計残高",
+                "取引所残高",
+                "順番",
+                "価値"
+            ],
+            "rowMap": {
+                "recharge": "取引所への入金",
+                "withdraw": "Walletへの出金",
+                "detail": "詳細",
+                "sideMap": {
+                    "1": "入金",
+                    "2": "引き出し"
+                }
+            }
+        },
+        "confirmrecharge": {
+            "successToast": "入金成功",
+            "failToast": "入金失敗",
+            "title": "取引所への入金",
+            "lable1": "Wallet残高",
+            "lable2": "入金量",
+            "tips": "Wallet残高不足",
+            "placeholder": "入金量を入力してください",
+            "btn": "入金"
+        },
+        "confirmwithdraw": {
+            "successToast": "引き出し成功",
+            "failToast": "引き出し失敗",
+            "title": "Walletへの出金",
+            "lable1": "利用可能残高",
+            "lable2": "引き出し量",
+            "tips": "Wallet残高不足",
+            "placeholder": "引き出し量を入力してください",
+            "btn": "引き出し"
+        },
+        "zero": "少額残高を非表示"
+    },
+    "tradeOpenOrders": {
+        "cancelErr": "回数制限に達しましたので、しばらく時間をおいて再度お試しください。",
+        "confirm": {
+            "successToast": "注文の取り消しに成功しました",
+            "failToast": "注文の取り消しに失敗しました",
+            "submitTxt": "取り消しを確認",
+            "cancelTxt": "キャンセル",
+            "title": "注文を取り消す",
+            "content": "注文を取り消してもよろしいですか？"
+        },
+        "title": "オープンオーダー",
+        "hint": {
+            "fdate": "開始日付を選択してください",
+            "tdate": "終了日付を選択してください",
+            "dateErr": "終了時刻は開始時刻よりも後の時刻にしてください。",
+            "ftoken": "トークンを選択してください"
+        },
+        "side": {
+            "1": "売却",
+            "0": "購入"
+        },
+        "table": {
+            "heads": [
+                "日付",
+                "ペア",
+                "サイド",
+                "価格",
+                "量",
+                "Filled",
+                "Filled%",
+                "平均"
+            ],
+            "rowMap": {
+                "cancel": "キャンセル"
+            }
+        }
+    },
+    "tradeOrderHistory": {
+        "title": "注文履歴",
+        "hint": {
+            "fdate": "開始日付を選択してください",
+            "tdate": "終了日付を選択してください",
+            "dateErr": "終了日は開始日より後でなくてはいけません"
+        },
+        "side": {
+            "1": "売却",
+            "0": "購入"
+        },
+        "status": {
+            "1": "Ongoing",
+            "2": "完了",
+            "3": "Cancelled",
+            "4": "失敗"
+        },
+        "confirmTable": {
+            "title": "オーダー ブック",
+            "heads": [
+                "時間",
+                "価格",
+                "量",
+                "手数料",
+                "合計"
+            ]
+        },
+        "table": {
+            "heads": [
+                "日付",
+                "ペア",
+                "サイド",
+                "価格",
+                "量",
+                "Filled",
+                "Filled%",
+                "平均",
+                "手数料",
+                "ステータス"
+            ],
+            "rowMap": {
+                "statusMap": {
+                    "1": "順番",
+                    "2": "完了",
+                    "3": "キャンセル",
+                    "4": "失敗"
+                },
+                "detail": "詳細"
+            }
+        },
+        "filter": {
+            "start": "From",
+            "end": "To",
+            "type": "タイプ",
+            "side": "サイド",
+            "buy": "購入",
+            "sell": "売却",
+            "status": "ステータス",
+            "search": "検索",
+            "reset": "リセット"
+        }
+    },
+    "tradeMining": {
+        "title": "マイニング",
+        "addQuota": "新しいステーキングを作成する",
+        "add": "追加",
+        "withdraw": "復元",
+        "tbHead": {
+            "date": "日付",
+            "fee": "取引手数料",
+            "mining": "マイニング量",
+            "pledge": "ステーキング量"
+        },
+        "txTitle": "トレードマイニング総収入",
+        "quotaTitle": "ステーキングマイニング総収入",
+        "addHint": "ステーキングマイニングの収入は毎日13:00（UTC + 8）に計算されます。 ステーキングが有効になった後、手動でステーキング収入を取得できます",
+        "withdrawHint": "取得後にVXをマイニングできなくなります",
+        "addTitle": "マイニングのためのVITEステーキング",
+        "withdrawTitle": "ステークVITEの取得",
+        "addPlaceHolder": "最小134VITE以上のステーキング量を入力して下さい",
+        "withdrawPlaceHolder": "最小134VITE以上の取得量を入力して下さい",
+        "addBtn": "ステークの確認",
+        "withdrawBtn": "取得の確認",
+        "stakingBalance": "回収可能ステーキング量",
+        "hintTitle": "重要なお知らせ",
+        "comingHint": "VXマイニング機能は近日公開予定です。ご期待ください。 VXは5つの方法で入手できます。1.トレードマイニング、2.リスティングマイニング、3.リファラルマイニング、4.ステーキングマイニング、5.マーケットメイキングマイニング。 VX保有するユーザーは、共有プールからの配当を享受できます。",
+        "more": "VXマイニングルールの詳細"
+    },
+    "inviteMining": {
+        "title": "邀请挖矿总收益"
+    },
+    "orderMining": {
+        "title": "挂单挖矿总收益",
+        "tbHead": {
+            "date": "日前",
+            "ratio": "占比",
+            "mining": "挖矿金额"
+        }
+    },
+    "tradeDividend": {
+        "title": "配当金",
+        "poolTitle": "取引手数料配当プール",
+        "listTitle": "配当",
+        "date": "日付",
+        "VX": "保有VX",
+        "coin": "タイプ",
+        "amount": "量",
+        "price": "合計推定値",
+        "hintTitle": "重要なお知らせ",
+        "comingHint": "VXマイニングおよび配当詳細は近日公開予定です。ご期待ください。 システムは、保有するVXの量に比例して、BTC、ETH、VITE、USDTの合計プールの1％をすべてのVXユーザーに配布します。 最初の配当プールは0から始まり、ViteX徴収手数料量に応じて増加します。 トレーダーは、トレード、リスティング、リファラルコード、マーケットメイキングによりVXを獲得できますが、共有配当プールから配当を受け取るためには最低10 VXが必要です。",
+        "more": "VX配当ルールの詳細"
+    },
+    "tradeOperator": {
+        "title": "オペレーター",
+        "tokenList": "トークン",
+        "totalIncome": "総所得",
+        "permission": "所有権の譲渡",
+        "txPairManage": "取引ペア管理",
+        "noOperator": "あなたはトークンや取引ペアをs女優していませんが、オペレーターになりたいですか？",
+        "learnMore": "もっと読む",
+        "permissionConfirm": {
+            "title": "オーナー移転",
+            "submit": "確認",
+            "tokenName": "トークン名",
+            "address": "受取アドレス",
+            "notice": "注意：所有権が他の誰かに譲渡された場合、開かれていない取引ペアは新しい所有者に属します。 トレーディング/サスペンション取引ペアはまだあなたのものです"
+        }
+    },
+    "tradeTxPairManage": {
+        "title": "{tokenSymbol} 取引ペア管理",
+        "symbol": "名前",
+        "income": "収入",
+        "fee": "手数料価格",
+        "status": "ステータス",
+        "operate": "アクション",
+        "stopTrans": "凍結",
+        "resetTrans": "復元する",
+        "changeOwner": "オーナー移転",
+        "changeFee": "手数料率の調整",
+        "incomeList": "収入詳細",
+        "historyIncome": "収入履歴",
+        "openTxPair": "オープン取引ペア",
+        "statusList": [
+            "所有権の移転",
+            "取引",
+            "Suspension",
+            "Trade Not Open"
+        ],
+        "openTxPairConfirm": {
+            "title": " {symbol} の取引オープン",
+            "fee": "リスティング手数料",
+            "hint": "トレーディングペアを開いた後に一意の演算子記号を追加する場合は、Telegramグループ（https://t.me/vite_en）でお問い合わせください。",
+            "btn": "提出",
+            "reqSuccess": "成功しました！ 後でマーケットボードで確認してください。",
+            "reqError": "リスティングに失敗しました, もう一度やり直してください。"
+        },
+        "stopTransHint": "{symbol}を一時停止しますか？",
+        "resetTransHint": "{symbol}を復元しますか？",
+        "stopSuccess": "サスペンション成功",
+        "stopFail": "サスペンション失敗",
+        "openSuccess": "復元完了",
+        "openFail": "復元失敗",
+        "changeOwnerHint": "注意：所有権の譲渡後に料金を徴収または調整することはできません。また、この譲渡アクションを取り消すことはできません。",
+        "currentMaker": "メイカー",
+        "confirmFee": "手数料",
+        "currentTaker": "テイカ－",
+        "txPairName": "名前",
+        "changeFeeHint": "{symbol}の手数料{fee}",
+        "changeFeeSubmit": "{changeFeeHint}を変更してください",
+        "historyAllIncome": "総所得",
+        "incomeListHead": {
+            "date": "日付",
+            "txNum": "ボリューム",
+            "feeRate": "レート",
+            "feeIncome": "収入"
+        }
+    }
+}
