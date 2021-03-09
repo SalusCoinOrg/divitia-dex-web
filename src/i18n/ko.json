@@ -161,7 +161,7 @@
     "preview": {
         "t": "버전{version}",
         "txt1": "x.vite.net은 지갑과 거래소를 통합한 웹 플랫폼입니다. Vite Labs가 공식적으로 출시했습니다.",
-        "txt2": "현재 버전은 지갑, ViteX 탈중앙화 거래소, VITE 할당량 스테이킹, SBP 등록, 투표 및 토큰 발행 기능을 포함합니다. 새로 출시 된 ViteConnect 기능을 사용해보세요! QR코드를 스캔해 Vite앱에 로그인할 수 있습니다!",
+        "txt2": "현재 버전은 지갑, ViteX 탈중앙화 거래소, VITE 할당량 스테이킹, SBP 등록, 투표 및 토큰 발행 기능을 포함합니다. 새로 출시 된 DivitiaConnect 기능을 사용해보세요! QR코드를 스캔해 Vite앱에 로그인할 수 있습니다!",
         "txt3": "ViteX가 공식적으로 출시되었습니다. 거래를 시작하세요!",
         "v": "현재 버전: {version}"
     },
@@ -717,7 +717,7 @@
             "next": "Confirm and Proceed"
         },
         "vb": {
-            "title": "ViteConnect",
+            "title": "DivitiaConnect",
             "connect": {
                 "tips": "Scan the QR code via Divitia Wallet App"
             },
@@ -729,7 +729,7 @@
                 "downloadTips": "Don’t have Divitia Wallet App yet? ",
                 "download": "Download Divitia Wallet"
             },
-            "accountName": "ViteConnect Address"
+            "accountName": "DivitiaConnect Address"
         },
         "invite": {
             "inviteTitle": "친구 초대하기",

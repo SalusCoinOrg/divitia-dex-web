@@ -163,7 +163,7 @@
     "preview": {
         "t": "Version {version}",
         "txt1": "x.vite.net adalah platform web yang mengintegrasikan dompet dan pertukaran. Secara resmi diluncurkan oleh Vite Labs.",
-        "txt2": "Versi saat ini terutama berisi fungsi dompet, pertukaran desentralisasi ViteX, mempertaruhkan VITE untuk kuota, pendaftaran SBP, pemungutan suara dan penerbitan token. Coba fungsi kami yang baru dirilis ViteConnect: Anda dapat menggunakan Aplikasi Vite untuk masuk melalui pemindaian kode QR.",
+        "txt2": "Versi saat ini terutama berisi fungsi dompet, pertukaran desentralisasi ViteX, mempertaruhkan VITE untuk kuota, pendaftaran SBP, pemungutan suara dan penerbitan token. Coba fungsi kami yang baru dirilis DivitiaConnect: Anda dapat menggunakan Aplikasi Vite untuk masuk melalui pemindaian kode QR.",
         "txt3": "ViteX diluncurkan secara resmi. Datang dan mulai berdagang sekarang.",
         "v": "Versi Saat Ini: {version}"
     },
@@ -719,7 +719,7 @@
             "next": "Konfirmasikan dan Lanjutkan"
         },
         "vb": {
-            "title": "ViteConnect",
+            "title": "DivitiaConnect",
             "connect": {
                 "tips": "Memindai kode QR melalui Aplikasi Divitia Wallet"
             },
@@ -731,7 +731,7 @@
                 "downloadTips": "Belum punya Aplikasi Divitia Wallet? ",
                 "download": "Download Divitia Wallet"
             },
-            "accountName": "Alamat ViteConnect"
+            "accountName": "Alamat DivitiaConnect"
         },
         "invite": {
             "inviteTitle": "Mengundang teman-teman",

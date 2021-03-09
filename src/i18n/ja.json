@@ -161,7 +161,7 @@
     "preview": {
         "t": "バージョン {version}",
         "txt1": "x.vite.netは、ウォレットと取引所を統合するWebプラットフォームです。 Vite Labsにより公式に開始されました。",
-        "txt2": "現在のバージョンには、ウォレット、ViteX、クォータ用ステーキング、SBP登録、投票、トークン発行の機能が含まれています。 新しくリリースされたViteConnect機能をお試しください。Viteアプリを使用して、QRコードをスキャンしてログインできます。",
+        "txt2": "現在のバージョンには、ウォレット、ViteX、クォータ用ステーキング、SBP登録、投票、トークン発行の機能が含まれています。 新しくリリースされたDivitiaConnect機能をお試しください。Viteアプリを使用して、QRコードをスキャンしてログインできます。",
         "txt3": "ViteXが正式にローンチしました。取引を始めましょう。",
         "v": "現在のバージョン: {version}"
     },
@@ -717,7 +717,7 @@
             "next": "確認して続行"
         },
         "vb": {
-            "title": "ViteConnect",
+            "title": "DivitiaConnect",
             "connect": {
                 "tips": "Divitia WalletアプリでQRコードをスキャンする"
             },
@@ -729,7 +729,7 @@
                 "downloadTips": "Divitia Walletアプリをまだ持っていませんか？",
                 "download": "Divitia Walletをダウンロード"
             },
-            "accountName": "ViteConnect アドレス"
+            "accountName": "DivitiaConnect アドレス"
         },
         "invite": {
             "inviteTitle": "友達を招待",

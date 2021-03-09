@@ -161,7 +161,7 @@
     "preview": {
         "t": "Phiên bản {version}",
         "txt1": "x.vite.net là một nền tảng web tích hợp ví và sàn giao dịch, được sáng lập bởi Vite Labs.",
-        "txt2": "Phiên bản hiện tại chủ yếu chứa các chức năng của ví, sàn giao dịch phi tập trung ViteX, đặt cược VITE để nhận hạn ngạch, đăng ký trở thành SBP, bỏ phiếu và phát hành token. Hãy thử chức năng mới phát hành của chúng tôi - ViteConnect: bạn có thể sử dụng Ứng dụng Vite để đăng nhập ViteX thông qua việc quét mã QR.",
+        "txt2": "Phiên bản hiện tại chủ yếu chứa các chức năng của ví, sàn giao dịch phi tập trung ViteX, đặt cược VITE để nhận hạn ngạch, đăng ký trở thành SBP, bỏ phiếu và phát hành token. Hãy thử chức năng mới phát hành của chúng tôi - DivitiaConnect: bạn có thể sử dụng Ứng dụng Vite để đăng nhập ViteX thông qua việc quét mã QR.",
         "txt3": "ViteX chính thức ra mắt. Bắt đầu giao dịch ngay bây giờ.",
         "v": "Phiên bản hiện tại: {version}"
     },
@@ -717,7 +717,7 @@
             "next": "Xác nhận và Tiến hành"
         },
         "vb": {
-            "title": "ViteConnect",
+            "title": "DivitiaConnect",
             "connect": {
                 "tips": "Quét mã QR bằng Ứng dụng ví Vite"
             },
@@ -729,7 +729,7 @@
                 "downloadTips": "Bạn chưa có ứng dụng ví Vite? ",
                 "download": "Tải ví Vite"
             },
-            "accountName": "Địa chỉ ViteConnect"
+            "accountName": "Địa chỉ DivitiaConnect"
         },
         "invite": {
             "inviteTitle": "Mời bạn bè",

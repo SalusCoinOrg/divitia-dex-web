@@ -212,7 +212,7 @@
         "t": "版本 {version}",
         "txt1": "x.vite.net是由Vite Labs官方发布的，集钱包，交易所于一体的产品。",
         "txt2": "主要功能包括钱包、ViteX交易所、抵押获取配额、注册SBP和全节点、投票、铸币、申请ViteX API、代理下单、查看挖矿和分红明细等功能。",
-        "txt3": "目前支持通过助记词、Ledger硬件钱包、ViteConnect等方式登陆。",
+        "txt3": "目前支持通过助记词、Ledger硬件钱包、DivitiaConnect等方式登陆。",
         "v": ""
     },
     "pwdConfirm": {
@@ -482,7 +482,7 @@
             "next": "同意并继续"
         },
         "vb":{
-            "title":"ViteConnect",
+            "title":"DivitiaConnect",
             "closeAlert":"关闭弹窗",
             "connect":{
                 "tips":"请使用Divitia Wallet App扫码登录."
@@ -495,7 +495,7 @@
                 "downloadTips":"还没有Divitia Wallet App？",
                 "download":"下载Vite手机钱包"
             },
-            "accountName":"ViteConnect 地址"
+            "accountName":"DivitiaConnect 地址"
         },
         "ledger": {
             "title": "Ledger Device",

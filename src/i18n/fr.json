@@ -161,7 +161,7 @@
     "preview": {
         "t": "Version {version}",
         "txt1": "x.vite.net is an web platform integrating wallet and exchange. It is officially launched by Vite Labs.",
-        "txt2": "Current version mainly contains functions of wallet, ViteX decentralised exchange, staking VITE for quota, SBP registration, voting and token issuance. Try our newly released function ViteConnect: you can use Vite App to login via scanning a QR code.",
+        "txt2": "Current version mainly contains functions of wallet, ViteX decentralised exchange, staking VITE for quota, SBP registration, voting and token issuance. Try our newly released function DivitiaConnect: you can use Vite App to login via scanning a QR code.",
         "txt3": "ViteX is formally launched. Come and start trading now.",
         "v": "Current Version: {version}"
     },
@@ -717,7 +717,7 @@
             "next": "Confirm and Proceed"
         },
         "vb": {
-            "title": "ViteConnect",
+            "title": "DivitiaConnect",
             "connect": {
                 "tips": "Scan the QR code via Divitia Wallet App"
             },
@@ -729,7 +729,7 @@
                 "downloadTips": "Don’t have Divitia Wallet App yet? ",
                 "download": "Download Divitia Wallet"
             },
-            "accountName": "ViteConnect Address"
+            "accountName": "DivitiaConnect Address"
         },
         "invite": {
             "inviteTitle": "Invite Friends",

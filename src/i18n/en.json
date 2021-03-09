@@ -204,7 +204,7 @@
         "t": "Version {version}",
         "txt1": "x.vite.net is a platform integrating the Divitia Wallet and the Divitia DEX exchange, launched by Vite Labs.",
         "txt2": "You can manager and transfer assets, trade, get quota, register SBP and full node, vote, issue tokens, apply for Divitia DEX API, authorize delegated trading, etc.",
-        "txt3": "x.vite.net supports mnemonic words, Ledger, and ViteConnect.",
+        "txt3": "x.vite.net supports mnemonic words, Ledger, and DivitiaConnect.",
         "v": ""
     },
     "pwdConfirm": {
@@ -788,7 +788,7 @@
             "next": "Confirm and Proceed"
         },
         "vb":{
-            "title":"ViteConnect",
+            "title":"DivitiaConnect",
             "closeAlert":"close",
             "connect":{
                 "tips":"Scan the QR code via Divitia Wallet App"
@@ -801,7 +801,7 @@
                 "downloadTips":"Don’t have Divitia Wallet App yet? ",
                 "download":"Download Divitia Wallet"
             },
-            "accountName":"ViteConnect Address"
+            "accountName":"DivitiaConnect Address"
         },
         "ledger": {
             "title": "Ledger Device",
