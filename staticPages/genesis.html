@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <title>Vite PreMainnet</title>
+        <title>Divitia PreMainnet</title>
     </head>
 
     <body>
@@ -15,7 +15,7 @@
         </div>
 
         <script>
-            function getViteNumber(num) {
+            function getDivitiaNumber(num) {
                 if (num.length > 18) {
                     var afterNum = num.slice(num.length - 18);
                     var preNum = num.slice(0, num.length - 18);
@@ -77,7 +77,7 @@
                     }
                 }).then((data) => {
                     let balanceMap = data.blockList[0] || {};
-                    let vite = balanceMap && +balanceMap.vitefinalbalance ? getViteNumber(balanceMap.vitefinalbalance) : '0';
+                    let vite = balanceMap && +balanceMap.vitefinalbalance ? getDivitiaNumber(balanceMap.vitefinalbalance) : '0';
                     let vcp = balanceMap && +balanceMap.vcpfinalbalance ? balanceMap.vcpfinalbalance : '0';
 
                     let tableDom = document.getElementById('table');
