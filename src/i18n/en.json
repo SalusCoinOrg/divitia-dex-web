@@ -202,7 +202,7 @@
     },
     "preview": {
         "t": "Version {version}",
-        "txt1": "x.vite.net is a platform integrating the Vite wallet and the Divitia DEX exchange, launched by Vite Labs.",
+        "txt1": "x.vite.net is a platform integrating the Divitia Wallet and the Divitia DEX exchange, launched by Vite Labs.",
         "txt2": "You can manager and transfer assets, trade, get quota, register SBP and full node, vote, issue tokens, apply for Divitia DEX API, authorize delegated trading, etc.",
         "txt3": "x.vite.net supports mnemonic words, Ledger, and ViteConnect.",
         "v": ""
@@ -268,7 +268,7 @@
         "again": "Please confirm your password",
         "choose": "Choose an account",
         "finish": "Done",
-        "agreementPre": "I have read and agree with Vite Wallet and Divitia DEX's",
+        "agreementPre": "I have read and agree with Divitia Wallet and Divitia DEX's",
         "agreement": "Terms of Services and Privacy Policy",
         "hint": {
             "nameInput": "Please input account name",
@@ -306,9 +306,9 @@
             "gate":"Wallet Cross-Chain Gateway",
             "totalExAmount":"Exchange Total Balance",
             "availableExAmount":"Exchange Available Balance",
-            "balanceTips": "On-chain send is available for users who would like to send transactions from your Vite wallet to other Vite addresses",
-            "gateTips": "In this cross-chain section, you can map other coins/tokens into Vite network. Click 'Deposit' button to deposit assets to your Vite Wallet. Click 'Withdraw' button to transfer your assets to other platforms. * Cross-chain deposit/withdrawal process may cause fees, it also has its transfer limit.",
-            "availableExAmountTips": "You can transfer your assets between Vite Wallet and Divitia DEX Exchange via clicking 'Transfer' button. No transaction fees caused during these processes.",
+            "balanceTips": "On-chain send is available for users who would like to send transactions from your Divitia Wallet to other Vite addresses",
+            "gateTips": "In this cross-chain section, you can map other coins/tokens into Vite network. Click 'Deposit' button to deposit assets to your Divitia Wallet. Click 'Withdraw' button to transfer your assets to other platforms. * Cross-chain deposit/withdrawal process may cause fees, it also has its transfer limit.",
+            "availableExAmountTips": "You can transfer your assets between Divitia Wallet and Divitia DEX Exchange via clicking 'Transfer' button. No transaction fees caused during these processes.",
             "unreceivedTips": "Unreceived funds will be received automatically after signing in"
         },
         "actionType": {
@@ -791,15 +791,15 @@
             "title":"ViteConnect",
             "closeAlert":"close",
             "connect":{
-                "tips":"Scan the QR code via Vite Wallet App"
+                "tips":"Scan the QR code via Divitia Wallet App"
             },
             "confirm":{
                 "tips":"Please confirm transaction on Divitia Wallet App"
             },
             "start":{
-                "scan":"Scan the QR code via Vite Wallet App",
-                "downloadTips":"Don’t have Vite Wallet App yet? ",
-                "download":"Download Vite Wallet"
+                "scan":"Scan the QR code via Divitia Wallet App",
+                "downloadTips":"Don’t have Divitia Wallet App yet? ",
+                "download":"Download Divitia Wallet"
             },
             "accountName":"ViteConnect Address"
         },
@@ -855,7 +855,7 @@
                 "alertLeftBtn": "I confirm the addresses are matched",
                 "alertRightBtn": "Addresses mismatch. Get me out of here!",
                 "userCancel": "Transaction is cancelled on Ledger",
-                "userCancelByWeb": "You cancelled the transaction in Vite wallet. In this case, the transaction will be abandoned and never go through to blockchain even if it is confirmed on your Ledger device."
+                "userCancelByWeb": "You cancelled the transaction in Divitia Wallet. In this case, the transaction will be abandoned and never go through to blockchain even if it is confirmed on your Ledger device."
             }
         },
         "invite":{
@@ -889,7 +889,7 @@
         "title": "dSLS Conversion",
         "help": {
             "title": "Quick Understanding of dSLS Conversion",
-            "text": "You can migrate ERC20 tokens into dSLS into our TestNet by dSLS conversion function. In TestNet, casting your vote for official SBPs to collect rewards, the annualized rate can reach 20%. Your ERC20 dSLS tokens will be transferred to Ethereum black hole address: {blackAddr}, you will receive the same amount of dSLS at your Vite address when Ethereum black hole address has received the transaction and confirmed. Once you are in the conversion process, confirm that there are enough dSLS and ETH (as gas) in your Ethereum address of Vite wallet."
+            "text": "You can migrate ERC20 tokens into dSLS into our TestNet by dSLS conversion function. In TestNet, casting your vote for official SBPs to collect rewards, the annualized rate can reach 20%. Your ERC20 dSLS tokens will be transferred to Ethereum black hole address: {blackAddr}, you will receive the same amount of dSLS at your Vite address when Ethereum black hole address has received the transaction and confirmed. Once you are in the conversion process, confirm that there are enough dSLS and ETH (as gas) in your Ethereum address of Divitia Wallet."
         },
         "gas": "Mining Fees",
         "record": "Conversion History",

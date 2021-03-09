@@ -10,9 +10,9 @@ const goViteServer = { // http-DNS
     // dev: '\'ws://111.231.218.73:41423\''
 };
 const dexApiServer = { // http-DNS
-    production: '"https://vitex.vite.net"',
-    test: '"https://vitex.vite.net"',
-    dev: '"https://vitex.vite.net"'
+    production: '""',
+    test: '""',
+    dev: '""'
     // dev: '"http://192.168.31.213:8080"'
 };
 const pushServer = { // http-DNS
@@ -57,9 +57,9 @@ const dnsHostServer = {
     dev: '\'\''
 };
 const rewardApiServer = {
-    production: '"https://vitex.vite.net"',
-    test: '"https://vitex.vite.net"',
-    dev: '"https://vitex.vite.net"'
+    production: '""',
+    test: '""',
+    dev: '""'
 };
 
 const contractAddress = {

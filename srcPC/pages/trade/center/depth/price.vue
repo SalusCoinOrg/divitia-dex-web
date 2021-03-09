@@ -15,7 +15,7 @@
 <script>
 import BigNumber from 'utils/bigNumber';
 
-const Default_Title = 'Vite Wallet';
+const Default_Title = 'Divitia Wallet';
 
 export default {
     mounted() {

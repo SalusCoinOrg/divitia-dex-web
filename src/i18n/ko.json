@@ -221,7 +221,7 @@
         "again": "비밀번호를 확인하세요",
         "choose": "계정을 선택하세요",
         "finish": "완료",
-        "agreementPre": "Vite Wallet 및 ViteX의",
+        "agreementPre": "Divitia Wallet 및 ViteX의",
         "agreement": "서비스 약관 및 개인정보 보호 정책를 읽고 동의합니다.",
         "hint": {
             "nameInput": "계정 이름을 입력하세요",
@@ -260,8 +260,8 @@
             "totalExAmount": "거래소 총 보유자산",
             "availableExAmount": "거래소 거래 가능 자산",
             "balanceTips": "You can transfer your assets to other addresses via clicking 'Send' button",
-            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Vite Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
-            "availableExAmountTips": "You can transfer your assets from Vite Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Vite Wallet. No transaction fees caused during these processes."
+            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Divitia Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
+            "availableExAmountTips": "You can transfer your assets from Divitia Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Divitia Wallet. No transaction fees caused during these processes."
         },
         "actionType": {
             "SEND": "전송",
@@ -719,15 +719,15 @@
         "vb": {
             "title": "ViteConnect",
             "connect": {
-                "tips": "Scan the QR code via Vite Wallet App"
+                "tips": "Scan the QR code via Divitia Wallet App"
             },
             "confirm": {
-                "tips": "Please confirm transaction on VITE Wallet App"
+                "tips": "Please confirm transaction on Divitia Wallet App"
             },
             "start": {
-                "scan": "Scan the QR code via Vite Wallet App",
-                "downloadTips": "Don’t have Vite Wallet App yet? ",
-                "download": "Download Vite Wallet"
+                "scan": "Scan the QR code via Divitia Wallet App",
+                "downloadTips": "Don’t have Divitia Wallet App yet? ",
+                "download": "Download Divitia Wallet"
             },
             "accountName": "ViteConnect Address"
         },

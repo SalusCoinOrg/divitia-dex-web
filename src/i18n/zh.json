@@ -485,14 +485,14 @@
             "title":"ViteConnect",
             "closeAlert":"关闭弹窗",
             "connect":{
-                "tips":"请使用Vite Wallet App扫码登录."
+                "tips":"请使用Divitia Wallet App扫码登录."
             },
             "confirm":{
-                "tips":"请在VITE Wallet App上确认交易"
+                "tips":"请在Divitia Wallet App上确认交易"
             },
             "start":{
-                "scan":"请使用Vite Wallet App扫码登录.",
-                "downloadTips":"还没有Vite Wallet App？",
+                "scan":"请使用Divitia Wallet App扫码登录.",
+                "downloadTips":"还没有Divitia Wallet App？",
                 "download":"下载Vite手机钱包"
             },
             "accountName":"ViteConnect 地址"

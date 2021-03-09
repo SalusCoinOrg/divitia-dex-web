@@ -223,7 +223,7 @@
         "again": "Harap konfirmasi kata sandi Anda",
         "choose": "Pilih akun",
         "finish": "Selesai",
-        "agreementPre": "Saya telah membaca dan menyetujui Vite Wallet dan ViteX's",
+        "agreementPre": "Saya telah membaca dan menyetujui Divitia Wallet dan ViteX's",
         "agreement": "Ketentuan Layanan dan Kebijakan Privasi",
         "hint": {
             "nameInput": "Silakan masukkan nama akun",
@@ -262,8 +262,8 @@
             "totalExAmount": "Total Saldo Pertukaran",
             "availableExAmount": "Saldo Tersedia Pertukaran",
             "balanceTips": "You can transfer your assets to other addresses via clicking 'Send' button",
-            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Vite Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
-            "availableExAmountTips": "You can transfer your assets from Vite Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Vite Wallet. No transaction fees caused during these processes."
+            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Divitia Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
+            "availableExAmountTips": "You can transfer your assets from Divitia Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Divitia Wallet. No transaction fees caused during these processes."
         },
         "actionType": {
             "SEND": "Kirim",
@@ -721,15 +721,15 @@
         "vb": {
             "title": "ViteConnect",
             "connect": {
-                "tips": "Memindai kode QR melalui Aplikasi Vite Wallet"
+                "tips": "Memindai kode QR melalui Aplikasi Divitia Wallet"
             },
             "confirm": {
-                "tips": "Harap konfirmasi transaksi di Aplikasi VITE Wallet"
+                "tips": "Harap konfirmasi transaksi di Aplikasi Divitia Wallet"
             },
             "start": {
-                "scan": "Memindai kode QR melalui Aplikasi Vite Wallet",
-                "downloadTips": "Belum punya Aplikasi Vite Wallet? ",
-                "download": "Download Vite Wallet"
+                "scan": "Memindai kode QR melalui Aplikasi Divitia Wallet",
+                "downloadTips": "Belum punya Aplikasi Divitia Wallet? ",
+                "download": "Download Divitia Wallet"
             },
             "accountName": "Alamat ViteConnect"
         },

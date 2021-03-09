@@ -221,7 +221,7 @@
         "again": "パスワードを確認してください",
         "choose": "アカウントを選択して下さい",
         "finish": "完了",
-        "agreementPre": "Vite WalletとViteXに関して同意します",
+        "agreementPre": "Divitia WalletとViteXに関して同意します",
         "agreement": "利用規約とプライバシーポリシー",
         "hint": {
             "nameInput": "アカウント名を入力してください",
@@ -260,8 +260,8 @@
             "totalExAmount": "取引所合計残高",
             "availableExAmount": "取引可能残高",
             "balanceTips": "You can transfer your assets to other addresses via clicking 'Send' button",
-            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Vite Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
-            "availableExAmountTips": "You can transfer your assets from Vite Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Vite Wallet. No transaction fees caused during these processes."
+            "gateTips": "In this cross-chain section, you can map other tokens into Vite network. Click 'Receive' button to deposit assets to your Divitia Wallet. Click 'Send' button to transfer your assets to other platforms. * Cross-chain receive/send process may charge fees, it also has its transfer limitation.",
+            "availableExAmountTips": "You can transfer your assets from Divitia Wallet to ViteX Exchange via clicking 'Deposit' button. Click 'Withdraw' button to transfer assets from ViteX Exchange to Divitia Wallet. No transaction fees caused during these processes."
         },
         "actionType": {
             "SEND": "送信",
@@ -719,15 +719,15 @@
         "vb": {
             "title": "ViteConnect",
             "connect": {
-                "tips": "Vite WalletアプリでQRコードをスキャンする"
+                "tips": "Divitia WalletアプリでQRコードをスキャンする"
             },
             "confirm": {
                 "tips": "VITEウォレットアプリで取引を確認してください"
             },
             "start": {
-                "scan": "Vite WalletアプリでQRコードをスキャンしてください",
-                "downloadTips": "Vite Walletアプリをまだ持っていませんか？",
-                "download": "Vite Walletをダウンロード"
+                "scan": "Divitia WalletアプリでQRコードをスキャンしてください",
+                "downloadTips": "Divitia Walletアプリをまだ持っていませんか？",
+                "download": "Divitia Walletをダウンロード"
             },
             "accountName": "ViteConnect アドレス"
         },
