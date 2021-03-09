@@ -1,4 +1,4 @@
-# vite-web-wallet (SPA)
+# divitia-dex-web (SPA)
 
 ## Prerequisite
 
