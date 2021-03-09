@@ -22,7 +22,7 @@ const Vite_Token_Info = constant.Vite_Token_Info;
 const VX_Decimals = 18;
 const typeList = {
     1: {
-        tokenSymbol: 'VITE',
+        tokenSymbol: 'dSLS',
         decimals: 18
     },
     2: {
@@ -163,7 +163,7 @@ const getters = {
     tokenShowTypeList(state, getters, rootState) {
         const theme = rootState.env.theme || '0';
         return [ {
-            name: 'VITE',
+            name: 'dSLS',
             icon: +theme === 0 ? viteIcon : theme1viteIcon,
             h5Icon: h5ViteIcon
         }, {

@@ -6,7 +6,7 @@ import vxIcon from 'assets/imgs/vx.png';
 export const defaultTokenMap = {
     'tti_5649544520544f4b454e6e40': {
         tokenId: 'tti_5649544520544f4b454e6e40',
-        tokenSymbol: 'VITE',
+        tokenSymbol: 'dSLS',
         icon: viteIcon,
         index: 0,
         ...constant.Vite_Token_Info

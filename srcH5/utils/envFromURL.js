@@ -1,7 +1,7 @@
 import getQuery from 'utils/query';
 const query = getQuery() || {};
 
-const quoteTokenCategory = [ 'BTC', 'ETH', 'VITE', 'USDT' ];
+const quoteTokenCategory = [ 'BTC', 'ETH', 'dSLS', 'USDT' ];
 let category = query.category || 'BTC';
 category = quoteTokenCategory.indexOf(category) === -1 ? 'BTC' : category;
 
