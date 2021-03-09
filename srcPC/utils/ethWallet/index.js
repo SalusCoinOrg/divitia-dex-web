@@ -34,8 +34,8 @@ class ethWallet {
         this.contract = new this.web3.Contract(viteContractAbi, viteContractAddr);
         this.tokenList = {
             vite: {
-                name: 'vite',
-                symbol: 'VITE',
+                name: 'divitia',
+                symbol: 'dSLS',
                 decimals: 18,
                 balance: 0
             },

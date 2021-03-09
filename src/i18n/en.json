@@ -22,7 +22,7 @@
     "submitStaking": "Submit Staking",
     "withdrawHeight": "Expected Snapshot Height",
     "balance": "Balance",
-    "dexBalance": "ViteX Balance",
+    "dexBalance": "Divitia DEX Balance",
     "addrName": "Address{index}",
     "true": "true",
     "false": "false",
@@ -31,7 +31,7 @@
         "next": "Next",
         "closeTips": "Skip user guide (Not recommended)",
         "trade": [
-            "Manage your assets (both Web Wallet and ViteX exchange) here",
+            "Manage your assets (both Web Wallet and Divitia DEX exchange) here",
             "Check out Open Orders and Order History, know trading details",
             "Participate in mining, acquire VX and trading fee dividends (Mining Dividends)",
             "Experience more features: Staking for Quota, becoming a SBP (Snapshot Block Producer) runner, Voting for SBPs, ERC20 conversion, Transaction Details, etc."
@@ -60,7 +60,7 @@
     },
     "pow": {
         "ing": "Running PoW to acquire quota",
-        "no": "You can stake VITE for quota in case you would not like to run PoW"
+        "no": "You can stake dSLS for quota in case you would not like to run PoW"
     },
     "addAccount": "Create an Account",
     "saveQrcode": "Save QR code image",
@@ -70,15 +70,15 @@
         "symbol": "Send"
     },
     "compliance": {
-        "text": "ViteX does not serve customers in the following countries/regions/territories: Mainland China, Hong Kong, Cuba, Iran, North Korea, Crimea, Sudan, Malaysia, Syria, USA [including all USA territories like Puerto Rico, American Samoa, Guam, Northern Mariana Island, and the US Virgin Islands (St. Croix, St. John and St. Thomas)], Bangladesh, Bolivia, Ecuador, and Kyrgyzstan. For more information, please read our Terms of Service and Privacy Policy",
+        "text": "Divitia DEX does not serve customers in the following countries/regions/territories: Mainland China, Hong Kong, Cuba, Iran, North Korea, Crimea, Sudan, Malaysia, Syria, USA [including all USA territories like Puerto Rico, American Samoa, Guam, Northern Mariana Island, and the US Virgin Islands (St. Croix, St. John and St. Thomas)], Bangladesh, Bolivia, Ecuador, and Kyrgyzstan. For more information, please read our Terms of Service and Privacy Policy",
         "title": "Important Notice"
     },
     "bnbConf": {
         "title": "Important Notice",
-        "t1": "VITE Binance Listing Coming! Please vote to have VITE listed on Binance.",
+        "t1": "dSLS Binance Listing Coming! Please vote to have dSLS listed on Binance.",
         "t2": "Voting Period: 12:00 pm Dec 12 to 12:00 pm Dec 13 (HKT)",
         "t3": "Voting Method: Holding 50 BNB allows for 1 vote (10 votes max)",
-        "t4": "Voting Rewards: All voted users will be rewarded with an airdrop totaling 21,000,000 VITE based on executed votes.",
+        "t4": "Voting Rewards: All voted users will be rewarded with an airdrop totaling 21,000,000 dSLS based on executed votes.",
         "btn": "Vote Now!!!",
         "notice": "[Attention]: You must have 50-500 BNBs in your Binance Account starting Dec 5 and last through Dec 13 to Qualify for Voting!"
     },
@@ -131,24 +131,24 @@
         "TransferTokenOwnership_V1": "Transfer of ownership",
         "DisableReIssue": "Edit token type",
         "DisableReIssue_V1": "Edit token type",
-        "DexDeposit": "ViteX Deposit",
-        "DexDeposit_V1": "ViteX Deposit",
-        "DexWithdraw": "ViteX Withdrawal",
-        "DexWithdraw_V1": "ViteX Withdrawal",
-        "DexPlaceOrder": "ViteX Creating Orders",
-        "DexPlaceOrder_V1": "ViteX Creating Orders",
-        "DexCancelOrder": "ViteX Revoking Orders",
-        "DexCancelOrder_V1": "ViteX Revoking Orders",
-        "DexStakeForSuperVIP": "ViteX SVIP",
-        "DexStakeForSuperVIP_V1": "ViteX SVIP",
+        "DexDeposit": "Divitia DEX Deposit",
+        "DexDeposit_V1": "Divitia DEX Deposit",
+        "DexWithdraw": "Divitia DEX Withdrawal",
+        "DexWithdraw_V1": "Divitia DEX Withdrawal",
+        "DexPlaceOrder": "Divitia DEX Creating Orders",
+        "DexPlaceOrder_V1": "Divitia DEX Creating Orders",
+        "DexCancelOrder": "Divitia DEX Revoking Orders",
+        "DexCancelOrder_V1": "Divitia DEX Revoking Orders",
+        "DexStakeForSuperVIP": "Divitia DEX SVIP",
+        "DexStakeForSuperVIP_V1": "Divitia DEX SVIP",
         "DexConfigMarketAgents": "Configure Delegations",
         "DexConfigMarketAgents_V1": "Configure Delegations",
-        "DexOpenNewMarket": "ViteX Token Listing",
-        "DexOpenNewMarket_V1": "ViteX Token Listing",
-        "DexStakeForVIP": "ViteX VIP",
-        "DexStakeForVIP_V1": "ViteX VIP",
-        "DexStakeForMining": "ViteX Staking",
-        "DexStakeForMining_V1": "ViteX Staking",
+        "DexOpenNewMarket": "Divitia DEX Token Listing",
+        "DexOpenNewMarket_V1": "Divitia DEX Token Listing",
+        "DexStakeForVIP": "Divitia DEX VIP",
+        "DexStakeForVIP_V1": "Divitia DEX VIP",
+        "DexStakeForMining": "Divitia DEX Staking",
+        "DexStakeForMining_V1": "Divitia DEX Staking",
         "CreateContractRequest": "Create Contract",
         "TransferRequest": "Transfer",
         "ReIssueRequest": "Transfer",
@@ -202,8 +202,8 @@
     },
     "preview": {
         "t": "Version {version}",
-        "txt1": "x.vite.net is a platform integrating the Vite wallet and the ViteX exchange, launched by Vite Labs.",
-        "txt2": "You can manager and transfer assets, trade, get quota, register SBP and full node, vote, issue tokens, apply for ViteX API, authorize delegated trading, etc.",
+        "txt1": "x.vite.net is a platform integrating the Vite wallet and the Divitia DEX exchange, launched by Vite Labs.",
+        "txt2": "You can manager and transfer assets, trade, get quota, register SBP and full node, vote, issue tokens, apply for Divitia DEX API, authorize delegated trading, etc.",
         "txt3": "x.vite.net supports mnemonic words, Ledger, and ViteConnect.",
         "v": ""
     },
@@ -215,8 +215,8 @@
     },
     "quotaConfirm": {
         "title": "Insufficient Quota",
-        "cancelContent": "You cannot {operate} due to insufficient TPS quota. You need to stake VITE for quota to {operate}",
-        "goQuota": "Stake VITE",
+        "cancelContent": "You cannot {operate} due to insufficient TPS quota. You need to stake dSLS for quota to {operate}",
+        "goQuota": "Stake dSLS",
         "noOperate": "Not {operate} yet"
     },
     "mnemonic": {
@@ -268,7 +268,7 @@
         "again": "Please confirm your password",
         "choose": "Choose an account",
         "finish": "Done",
-        "agreementPre": "I have read and agree with Vite Wallet and ViteX's",
+        "agreementPre": "I have read and agree with Vite Wallet and Divitia DEX's",
         "agreement": "Terms of Services and Privacy Policy",
         "hint": {
             "nameInput": "Please input account name",
@@ -282,7 +282,7 @@
     "startCreate": {
         "notice": "For your funds' safety, create account function is not supported provisionally on web wallet. Please download Vite App to create account.",
         "goLogin": "Log In",
-        "goDex": "Go to ViteX"
+        "goDex": "Go to Divitia DEX"
     },
     "keystore": {
         "title": "Keystore",
@@ -308,7 +308,7 @@
             "availableExAmount":"Exchange Available Balance",
             "balanceTips": "On-chain send is available for users who would like to send transactions from your Vite wallet to other Vite addresses",
             "gateTips": "In this cross-chain section, you can map other coins/tokens into Vite network. Click 'Deposit' button to deposit assets to your Vite Wallet. Click 'Withdraw' button to transfer your assets to other platforms. * Cross-chain deposit/withdrawal process may cause fees, it also has its transfer limit.",
-            "availableExAmountTips": "You can transfer your assets between Vite Wallet and ViteX Exchange via clicking 'Transfer' button. No transaction fees caused during these processes.",
+            "availableExAmountTips": "You can transfer your assets between Vite Wallet and Divitia DEX Exchange via clicking 'Transfer' button. No transaction fees caused during these processes.",
             "unreceivedTips": "Unreceived funds will be received automatically after signing in"
         },
         "actionType": {
@@ -396,15 +396,15 @@
                 "OPPOSITE_CONFIRMED": "Gateway Received",
                 "TOT_CONFIRMED": "Completed",
                 "BELOW_MINIMUM": "Topup Failed",
-                "TOT_PROCESSING": "VITE chain await to confirm"
+                "TOT_PROCESSING": "Dvitia chain await to confirm"
             }
         },
         "withdrawRecord": {
             "tabName": "Transfer History",
             "heads": ["Time", "Amount", "Status", "vite Hash", "{outChain} Hash","Fees"],
             "statusMap":{
-                "TOT_PROCESSING": "VITE Chain Unconfirmed{confirms}",
-                "TOT_CONFIRMED": "VITE Confirmed",
+                "TOT_PROCESSING": "Dvitia Chain Unconfirmed{confirms}",
+                "TOT_CONFIRMED": "Divitia Confirmed",
                 "TOT_EXCEED_THE_LIMIT":"Transfer amount exceeds the limit",
                 "OPPOSITE_PROCESSING": "{outChain} awaits to confirm",
                 "OPPOSITE_CONFIRMED": "Completed",
@@ -419,7 +419,7 @@
             "labelCodeTips":"Please Scan the QR code from {labelName}",
             "codeTips": "Scan QR code to deposit. Please send funds with the wallet that supports {tokenSymbol}",
             "tips": [
-                "Cross-Chain Deposit operation will do {tokenSymbol} Cross-Chain mapping to VITE network, you can still transfer the assets to other platform after receiving them",
+                "Cross-Chain Deposit operation will do {tokenSymbol} Cross-Chain mapping to Divitia network, you can still transfer the assets to other platform after receiving them",
                 "You can only send {tokenSymbol} through this address and the amount cannot be less than {min}",
                 "You will receive your assets after {confirmationCount} confirmations, kindly wait in patient"
             ]
@@ -477,13 +477,13 @@
             "addr": "Please input address"
         },
         "hint": {
-            "token": "VITE test tokens have be sent to your account, please check your account!",
+            "token": "dSLS test tokens have be sent to your account, please check your account!",
             "tErr": "Get test token failed!",
             "amount": "Amount must be greater than 0"
         },
         "trans": {
             "powErr": "Error occurs when running PoW, please try again",
-            "powTransErr": "Insufficient quota of PoW, we'd recommend that you stake VITE to obtain quota."
+            "powTransErr": "Insufficient quota of PoW, we'd recommend that you stake dSLS to obtain quota."
         }
     },
     "walletMintage": {
@@ -555,15 +555,15 @@
         "fromAddr": "Deduction Address",
         "time": "Staking Freeze Duration",
         "aboutDays": "Approx {day} days",
-        "amountPlaceholder": "Please enter staking amount, minimum {num} VITE",
+        "amountPlaceholder": "Please enter staking amount, minimum {num} dSLS",
         "limitAmt": "Staking amount should not be less than {num}.",
         "addrPlaceholder": "Please input quota recipient address",
         "inputWithdrawAmount": "Please input withdraw amount",
         "pledgeFail": "Failed to Submit",
         "canclePledgeFail": "Failed",
         "maturity": "Staking has expired!",
-        "minAmt": "Withdraw amount cannot be less than {num} VITE",
-        "gotoStake": "Please Staking enough VITE first",
+        "minAmt": "Withdraw amount cannot be less than {num} dSLS",
+        "gotoStake": "Please Staking enough dSLS first",
         "maxAmt": "Withdraw amount should be in [{minAmount}, {maxAmount}]",
         "cancelLimitAmt": "Staking amount cannot be less than {num}",
         "withdrawalStaking": "Withdraw Staked Token",
@@ -571,31 +571,31 @@
         "confirm": {
             "help": {
                 "t1": "What is Quota?",
-                "txt1": "In the Vite system, users do not purchase the gas required for a transaction by paying a fee, but acquire the computing resource through a quota-based model. Required quota for sending a transaction = the basic quota (request) + quota (the attached text data), quota required to accept a transaction = the basic quota (response). This quota-based resource configuration protocol allows users to obtain higher resource quotas in two ways: Staking VITE to obtain quota and running PoW.",
+                "txt1": "In the Vite system, users do not purchase the gas required for a transaction by paying a fee, but acquire the computing resource through a quota-based model. Required quota for sending a transaction = the basic quota (request) + quota (the attached text data), quota required to accept a transaction = the basic quota (response). This quota-based resource configuration protocol allows users to obtain higher resource quotas in two ways: Staking dSLS to obtain quota and running PoW.",
                 "t2": "What is Staking?",
-                "txt2": "In the Vite system, the user can stake VITE to obtain a certain amount of quota. The minimum value for staking is 134 VITE, and there is no maximum limit; meanwhile, Vite system also supports that the A-address stakes a part of the VITE and allocates the obtained quota to the B address. When users apply to stake, VITE will be sent to the smart contract address instead of another user, and only the user who applies for staking has access to manage the staking amount.",
+                "txt2": "In the Vite system, the user can stake dSLS to obtain a certain amount of quota. The minimum value for staking is 134 dSLS, and there is no maximum limit; meanwhile, Vite system also supports that the A-address stakes a part of the dSLS and allocates the obtained quota to the B address. When users apply to stake, dSLS will be sent to the smart contract address instead of another user, and only the user who applies for staking has access to manage the staking amount.",
                 "t3": "What is PoW?",
                 "txt3": "Proof of Work (PoW), is a protocol to confirm that you have done a certain amount of work, and is also an economic measure to deter DDoS attacks and other service abuse. It requires the initiator to conduct a certain amount of computing, which means that it may take some time for the computer. In the Vite system, users can obtain a free quota by running the PoW, and also can send a transaction without any annotated information through obtained quota."
             },
             "cancel": {
-                "describe": "Your current staked amount is {amount} VITE, please confirm to withdraw.",
+                "describe": "Your current staked amount is {amount} dSLS, please confirm to withdraw.",
                 "rightBtn": "Ready to Go",
                 "leftBtn": "Cancel Withdraw"
             },
             "submit": {
-                "describe": "Make sure to stake {amount} VITE to obtain quota, you cannot withdraw until about 3 days after staking comes into effect.",
+                "describe": "Make sure to stake {amount} dSLS to obtain quota, you cannot withdraw until about 3 days after staking comes into effect.",
                 "rightBtn": "Confirm",
                 "leftBtn": "Cancel"
             }
         },
         "list": {
             "title": "My Staking List",
-            "total": "Staking {amount} VITE in total",
+            "total": "Staking {amount} dSLS in total",
             "amount": "Amount",
             "withdrawTime": "Expected Due Date",
             "unexpired": "Temporarily cannot make withdrawal of staked token until due date",
-            "vip": "This staking action is for default opening VIP on ViteX exchange, please go to ViteX exchange page to cancel VIP",
-            "mining": "This staking is your staking as mining amount on ViteX, please go to ViteX mining page to unstake",
+            "vip": "This staking action is for default opening VIP on Divitia DEX exchange, please go to Divitia DEX exchange page to cancel VIP",
+            "mining": "This staking is your staking as mining amount on Divitia DEX, please go to Divitia DEX mining page to unstake",
             "other": "This staking is staked via other ways and unstake is not supported here"
         }
     },
@@ -623,20 +623,20 @@
             "txt1": "[Number of Registered Nodes]  The number of full nodes registered with the current address",
             "txt2": "[Number of Active Nodes]  The number of active full nodes registered with the current address",
             "txt3": "[Number of Rewarding nodes]  Number of nodes being rewarded",
-            "t2": "Multiple Full nodes can be registered with the same address, but must be staked individually at least 10,000 VITE each; When calculating Active Node Reward, if staking amount / 10000 yields a whole number that is greater than or equal to the number of active nodes, all active nodes will be rewarded; If staking amount / 10000 yields a whole number that is less than the number of active nodes, the number of nodes being rewarded equals to the whole number.",
+            "t2": "Multiple Full nodes can be registered with the same address, but must be staked individually at least 10,000 dSLS each; When calculating Active Node Reward, if staking amount / 10000 yields a whole number that is greater than or equal to the number of active nodes, all active nodes will be rewarded; If staking amount / 10000 yields a whole number that is less than the number of active nodes, the number of nodes being rewarded equals to the whole number.",
             "t3": "Calculation of voting rewards does not depend on the number of nodes, but the staking amount."
         },               
-        "confirmText": "Confirm to stake {amount} VITE for quota, staking can be cancelled after {days} days",
+        "confirmText": "Confirm to stake {amount} dSLS for quota, staking can be cancelled after {days} days",
         "addQuota": {
             "address": "Staking Address",
             "stakeDays": "Staking Period",
-            "placeholder": "Minimum Stake {min} VITE"
+            "placeholder": "Minimum Stake {min} dSLS"
         },
         "quotaContent": {
             "onlineReward": "Active Node Reward",
             "voteReward": "Voting Reward",
             "yesterday": "yesterday",
-            "all": "Accumulated VITE: {num}",
+            "all": "Accumulated dSLS: {num}",
             "nodeInfo": "Node Information",
             "onlineNodes": "Active Nodes",
             "rewardNodes": "Rewarding Nodes",
@@ -647,7 +647,7 @@
         "title": "SBP",
         "help": {
             "title": "About SBP",
-            "text": "SBP（Snapshot Block Producer）is a node that has right to create blocks, you can register to become a SBP candidate by staking a certain amount of VITE, each round (about 75 seconds) will elect 25 SBPs, the SBPs will be elected from random 23 out of top 25 candidate nodes, plus random 2 out of the candidate nodes ranking 26th-100th on the list. The 50% of block creation rewards will be allocated to the block creation node, the other 50% will be allocated to nodes that are ranked on top 100 as voting rewards. One registration address (staking address) can register multiple block creation nodes (node names), a node name cannot be used if the node name has been registered by a registration address. A node name can switch block creation address, however, block creation address cannot be reused by other node names."
+            "text": "SBP（Snapshot Block Producer）is a node that has right to create blocks, you can register to become a SBP candidate by staking a certain amount of dSLS, each round (about 75 seconds) will elect 25 SBPs, the SBPs will be elected from random 23 out of top 25 candidate nodes, plus random 2 out of the candidate nodes ranking 26th-100th on the list. The 50% of block creation rewards will be allocated to the block creation node, the other 50% will be allocated to nodes that are ranked on top 100 as voting rewards. One registration address (staking address) can register multiple block creation nodes (node names), a node name cannot be used if the node name has been registered by a registration address. A node name can switch block creation address, however, block creation address cannot be reused by other node names."
         },
         "register": "SBP Registration",
         "cancel": "SBP Cancellation",
@@ -665,7 +665,7 @@
         },
         "confirm": {
             "title": "Registration of SBP candidates",
-            "describe": "The {amount} VITE of current address will be locked about 90 days when you submit the registration,  the amount will be returned to staking address after being unlocked",
+            "describe": "The {amount} dSLS of current address will be locked about 90 days when you submit the registration,  the amount will be returned to staking address after being unlocked",
             "leftBtn": "Not register yet",
             "rightBtn": "Ready to Register",
             "edit": {
@@ -714,7 +714,7 @@
         "title": "Voting",
         "help": {
             "title": "About Voting",
-            "text": "You can join and vote for 25 SBPs （Snapshot Block Producer), each round of voting lasts 75s, the polls you can use for voting are equivalent to the amount of VITE tokens owned by voting address, the default selection is the choice of previous round, the SBPs will be chosen from random 23 out of top 25 candidate nodes, plus random 2 out of the candidate nodes ranking 26th-100th on the list, 25 SBPs in total."
+            "text": "You can join and vote for 25 SBPs （Snapshot Block Producer), each round of voting lasts 75s, the polls you can use for voting are equivalent to the amount of dSLS tokens owned by voting address, the default selection is the choice of previous round, the SBPs will be chosen from random 23 out of top 25 candidate nodes, plus random 2 out of the candidate nodes ranking 26th-100th on the list, 25 SBPs in total."
         },
         "toReward": "View my rewards",
         "voting": "Voting",
@@ -794,7 +794,7 @@
                 "tips":"Scan the QR code via Vite Wallet App"
             },
             "confirm":{
-                "tips":"Please confirm transaction on VITE Wallet App"
+                "tips":"Please confirm transaction on Divitia Wallet App"
             },
             "start":{
                 "scan":"Scan the QR code via Vite Wallet App",
@@ -876,7 +876,7 @@
             "inviteBenifit":"Referral Mining Income",
             "inviteRule":"Rules",
             "ruleItems":[
-                "The <span class='strong'>1,000 VITE</span> payment to generate an invitation code will be burned",
+                "The <span class='strong'>1,000 dSLS</span> payment to generate an invitation code will be burned",
                 "Referee will be rewarded with <span class='strong'>5%</span> of all invited users' trading as mining proceeds and <span class='strong'>2.5%</span> of all market-making as mining proceeds"
             ],
             "receiveRuleItems": [
@@ -886,21 +886,21 @@
         }
     },
     "walletConversion": {
-        "title": "VITE Conversion",
+        "title": "dSLS Conversion",
         "help": {
-            "title": "Quick Understanding of VITE Conversion",
-            "text": "You can migrate ERC20 tokens into VITE into our TestNet by VITE conversion function. In TestNet, casting your vote for official SBPs to collect rewards, the annualized rate can reach 20%. Your ERC20 VITE tokens will be transferred to Ethereum black hole address: {blackAddr}, you will receive the same amount of VITE at your Vite address when Ethereum black hole address has received the transaction and confirmed. Once you are in the conversion process, confirm that there are enough VITE and ETH (as gas) in your Ethereum address of Vite wallet."
+            "title": "Quick Understanding of dSLS Conversion",
+            "text": "You can migrate ERC20 tokens into dSLS into our TestNet by dSLS conversion function. In TestNet, casting your vote for official SBPs to collect rewards, the annualized rate can reach 20%. Your ERC20 dSLS tokens will be transferred to Ethereum black hole address: {blackAddr}, you will receive the same amount of dSLS at your Vite address when Ethereum black hole address has received the transaction and confirmed. Once you are in the conversion process, confirm that there are enough dSLS and ETH (as gas) in your Ethereum address of Vite wallet."
         },
         "gas": "Mining Fees",
         "record": "Conversion History",
         "aboutPrice": "Approx {amount} ETH",
-        "note": "Please wait in patient after submitting the conversion. You cannot receive the converted VITE until you have got 30 Ethereum transaction confirmations. Ehtereum transaction records can be viewed in Conversion History section.",
+        "note": "Please wait in patient after submitting the conversion. You cannot receive the converted dSLS until you have got 30 Ethereum transaction confirmations. Ehtereum transaction records can be viewed in Conversion History section.",
         "exchange": {
             "vite": "Convert",
             "viteAddr": "Receiving Address",
             "viteAmount": "Conversion Amount",
             "btn": "Ready to Convert",
-            "success": "Conversion Successful. It may take approx 20 minutes to get VITE into your account after the Ethereum transaction is confirmed."
+            "success": "Conversion Successful. It may take approx 20 minutes to get dSLS into your account after the Ethereum transaction is confirmed."
         }
     },
     "tradeCenter": {
@@ -910,7 +910,7 @@
         "depthStep": "{step} digits",
         "blocking": "Network congestion occurs, please try again later",
         "supportMining": "Eligible for trading and market-making as mining",
-        "cmcHelp": "View VITE on CoinMarketCap",
+        "cmcHelp": "View dSLS on CoinMarketCap",
         "supportTradeMining": "Eligible for trading as mining",
         "supportOrderMining": "Eligible for market-making as mining",
         "zeroFee": "Zero Fee",
@@ -1089,11 +1089,11 @@
             "price": "Cost",
             "priceInfo": "{price} VX/mth",
             "upgrade": "Upgrade",
-            "balanceAlert": "Cannot create if VITE balance is less than {balanceLimit}.",
+            "balanceAlert": "Cannot create if dSLS balance is less than {balanceLimit}.",
             "noSupportForHardware": "Hardware Wallet is not supported at the moment",
             "tips": {
                 "title": "Notice",
-                "0": "ViteX is releasing official API to provide access to markets and real-time trading services. Follow the instructions below to properly acquire an API private key.",
+                "0": "Divitia DEX is releasing official API to provide access to markets and real-time trading services. Follow the instructions below to properly acquire an API private key.",
                 "0-step1": "1. Create API",
                 "0-step2": "2. Authorize delegation of selected trading pairs",
                 "0-step3": "3. Stake quota for API delegation address",
@@ -1302,15 +1302,15 @@
         },
         "txTitle": "Trading as Mining Total Income",
         "quotaTitle": "Staking as Mining Total Income",
-        "addHint1": "Single stake should be at least 134 VITE",
-        "addHint2": "VITE staking will be effective immediately after submission. Staking can be canceled after 3 days",
+        "addHint1": "Single stake should be at least 134 dSLS",
+        "addHint2": "dSLS staking will be effective immediately after submission. Staking can be canceled after 3 days",
         "addHint3": "Staked amount will be released after the 7-day waiting period",
         "withdrawHint1": "You will no longer be able to mining VX after the staking is canceled",
-        "withdrawHint2": "It takes 7 days to return unstaked VITE coins to exchange balance",
-        "addTitle": "Stake VITE for Mining",
-        "withdrawTitle": "Unstake VITE",
+        "withdrawHint2": "It takes 7 days to return unstaked dSLS coins to exchange balance",
+        "addTitle": "Stake dSLS for Mining",
+        "withdrawTitle": "Unstake dSLS",
         "addPlaceHolder": "Please enter staking amount",
-        "withdrawPlaceHolder": "Please input unstaking amount, at least 134 VITE",
+        "withdrawPlaceHolder": "Please input unstaking amount, at least 134 dSLS",
         "addBtn": "Confirm to Stake",
         "withdrawBtn": "Confirm to Unstake",
         "stakingBalance": "Available Stake Balance",
@@ -1322,20 +1322,20 @@
         "dividends": "24H Expected Mined Volume",
         "view": "View Live Mining Dashboard",
         "inviteCount": "Referrals",
-        "help": "Current trading fees displayed on this page contains only the 0.2% ViteX base transaction fees, please note that operator fees shall be taken into consideration when calculating mining cost"
+        "help": "Current trading fees displayed on this page contains only the 0.2% Divitia DEX base transaction fees, please note that operator fees shall be taken into consideration when calculating mining cost"
     },
     "tradeVip": {
         "title": "VIP Status",
         "open": "Become a VIP",      
         "cancel": "Cancel {type}", 
         "help": {
-            "title": "About ViteX VIP"
+            "title": "About Divitia DEX VIP"
         },
         "helpConfirm": {
             "t1": "VIP",
-            "txt1": "Stake 10,000 VITE to acquire VIP status and receive 50% off trading fees. Staking can be canceled after 30 days.",
+            "txt1": "Stake 10,000 dSLS to acquire VIP status and receive 50% off trading fees. Staking can be canceled after 30 days.",
             "t2": "SVIP",
-            "txt2": "Stake 1M VITE to become a SVIP and enjoy 0 base trading fees. Staking can be canceled after 30 days.",
+            "txt2": "Stake 1M dSLS to become a SVIP and enjoy 0 base trading fees. Staking can be canceled after 30 days.",
             "txt3": "SVIP supports staking for any valid account address. Stake for them to get SVIP status!"
         },       
         "vipConfirm": {
@@ -1344,13 +1344,13 @@
             "openStakingAmount": "Staking Amount for Becoming a VIP",
             "cancelStakingAmount": "Available Stake Balance",
             "noBalance": "Insufficient Balance",
-            "openHint": "You will receive 0.1% trading fee deduction as a VIP. The staking of 10,000 VITE can be withdrawn after 30 days.",
+            "openHint": "You will receive 0.1% trading fee deduction as a VIP. The staking of 10,000 dSLS can be withdrawn after 30 days.",
             "cancelHint": "VIP status will be canceled immediately.",
             "openSuccess": "Your VIP status is activated! It will take effect in a few seconds.",
             "openFail": "VIP Registration Failed",
             "cancelSuccess": "Cancel VIP Successful",
             "cancelFail": "Cancel Failed",
-            "adviseToCancel":"There will be no base transaction fees with your current status as our SVIP, we therefore recommend you to revoke the staked VITE，which is required for general VIP members.",
+            "adviseToCancel":"There will be no base transaction fees with your current status as our SVIP, we therefore recommend you to revoke the staked dSLS，which is required for general VIP members.",
             "address": "Enable VIP Status",
             "addressPlaceholder": "Current address is the default address, address cannot be modified later"
         },
@@ -1362,7 +1362,7 @@
             "openStakingAmount": "Staking Amount for Becoming a SVIP",
             "cancelStakingAmount": "Available Stake Balance",
             "noBalance": "Insufficient Balance",
-            "openHint": "You will enjoy 0% base transaction fee when upgrading to SVIP. The stake of 1,000,000 VITE can be withdrawn after 30 days.",
+            "openHint": "You will enjoy 0% base transaction fee when upgrading to SVIP. The stake of 1,000,000 dSLS can be withdrawn after 30 days.",
             "cancelHint": "SVIP privileges will be discontinued once staking is revoked",
             "openSuccess": "Applied Successful! SVIP status will come into effect later.",
             "openFail": "Failed to apply SVIP",
@@ -1403,7 +1403,7 @@
         "amount": "Amount",
         "price": "Total Estimated Value",
         "hintTitle": "Important Notice",
-        "comingHint": "VX mining and dividend functions are coming soon, stay tuned. The system will distribute 1% of BTC, ETH, VITE, USDT of the total pool to all VX users proportional to the amount of VX they hold. The initial dividend pool will start at 0 and will grow according to the amount of fees collected by ViteX. Traders must have a minimum of 10 VX in order to receive dividends from a shared dividend pool comprised of base transaction, listing and referral code generating fees. ",
+        "comingHint": "VX mining and dividend functions are coming soon, stay tuned. The system will distribute 1% of BTC, ETH, dSLS, USDT of the total pool to all VX users proportional to the amount of VX they hold. The initial dividend pool will start at 0 and will grow according to the amount of fees collected by Divitia DEX. Traders must have a minimum of 10 VX in order to receive dividends from a shared dividend pool comprised of base transaction, listing and referral code generating fees. ",
         "more": "Learn more about VX dividend rules",
         "help": "Reward Rules: 1. A minimum of 10 VX must be staked to receive dividends. 2. Submission of staking request allows for dividends starting the nearest distribution. 3. Staked amount will be released after the 7-day waiting period",
         "lockedAmount": "Staking Amount",
