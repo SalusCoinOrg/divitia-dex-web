@@ -170,7 +170,7 @@
         "understand": "I understand",
         "edit": "Edit",
         "reReg": "Re-register",
-        "otherProd": "Use Other Products of Vite",
+        "otherProd": "Use Other Products of Divitia",
         "known": "I know"
     },
     "hint": {
@@ -196,13 +196,13 @@
     },
     "beforeUse": {
         "title": "Read Before Use",
-        "text1": "For your funds' safety, create account function is not supported provisionally on web wallet. Please download Vite App to create account. Vite platform would like to warn you that if you visit a phishing website or lose you backup, our company cannot recover your funds.",
+        "text1": "For your funds' safety, create account function is not supported provisionally on web wallet. Please download Divitia App to create account. Divitia platform would like to warn you that if you visit a phishing website or lose you backup, our company cannot recover your funds.",
         "text2": "Please note that our websites do not store your private keys or seed phrase. Therefore, you will need to restore your account via seed phrase if you decide to change browsers, clear local cookies, or change PCs.",
         "text3": "Please take proper precautions in ensuring that you accurately record and safely store your seed phrase. Even the slightest error will result in you not being able to successfully restore your address."
     },
     "preview": {
         "t": "Version {version}",
-        "txt1": "x.vite.net is a platform integrating the Divitia Wallet and the Divitia DEX exchange, launched by Vite Labs.",
+        "txt1": "x.vite.net is a platform integrating the Divitia Wallet and the Divitia DEX exchange, launched by Divitia Labs.",
         "txt2": "You can manager and transfer assets, trade, get quota, register SBP and full node, vote, issue tokens, apply for Divitia DEX API, authorize delegated trading, etc.",
         "txt3": "x.vite.net supports mnemonic words, Ledger, and DivitiaConnect.",
         "v": ""
@@ -242,9 +242,9 @@
         "block": "Current Height",
         "version": "Version",
         "service": "Customer Service",
-        "site": "Official Website of Vite",
+        "site": "Official Website of Divitia",
         "sys": "System Portal",
-        "open": "Vite Github",
+        "open": "Divitia Github",
         "addAddr": "Add Address",
         "addrList": "Address Management",
         "setDefault": "Select Default Address",
@@ -280,7 +280,7 @@
         }
     },
     "startCreate": {
-        "notice": "For your funds' safety, create account function is not supported provisionally on web wallet. Please download Vite App to create account.",
+        "notice": "For your funds' safety, create account function is not supported provisionally on web wallet. Please download Divitia App to create account.",
         "goLogin": "Log In",
         "goDex": "Go to Divitia DEX"
     },
@@ -306,8 +306,8 @@
             "gate":"Wallet Cross-Chain Gateway",
             "totalExAmount":"Exchange Total Balance",
             "availableExAmount":"Exchange Available Balance",
-            "balanceTips": "On-chain send is available for users who would like to send transactions from your Divitia Wallet to other Vite addresses",
-            "gateTips": "In this cross-chain section, you can map other coins/tokens into Vite network. Click 'Deposit' button to deposit assets to your Divitia Wallet. Click 'Withdraw' button to transfer your assets to other platforms. * Cross-chain deposit/withdrawal process may cause fees, it also has its transfer limit.",
+            "balanceTips": "On-chain send is available for users who would like to send transactions from your Divitia Wallet to other Divitia addresses",
+            "gateTips": "In this cross-chain section, you can map other coins/tokens into Divitia network. Click 'Deposit' button to deposit assets to your Divitia Wallet. Click 'Withdraw' button to transfer your assets to other platforms. * Cross-chain deposit/withdrawal process may cause fees, it also has its transfer limit.",
             "availableExAmountTips": "You can transfer your assets between Divitia Wallet and Divitia DEX Exchange via clicking 'Transfer' button. No transaction fees caused during these processes.",
             "unreceivedTips": "Unreceived funds will be received automatically after signing in"
         },
@@ -385,7 +385,7 @@
             "setting": "Gateway Interface",
             "nodeDesc": "User Guide",
             "settingPlaceholder": "Please input gateway link address",
-            "nodeDescStr": "This function only works for cross-chain coins, do not use this on built-in tokens. Meanwhile, please be careful about unfamiliar gateway links. By continuing to use our platform, you agree and acknowledge that Vite Labs would not be responsible for the loss of your fund and other negative consequences caused. Fill out the gateway link below if you need to use gateway, the link will come into effect after you hit save."
+            "nodeDescStr": "This function only works for cross-chain coins, do not use this on built-in tokens. Meanwhile, please be careful about unfamiliar gateway links. By continuing to use our platform, you agree and acknowledge that Divitia Labs would not be responsible for the loss of your fund and other negative consequences caused. Fill out the gateway link below if you need to use gateway, the link will come into effect after you hit save."
         },
         "depositRecord": {
             "tabName": "Receive History",
@@ -450,10 +450,10 @@
         "nodeErr": "Gateway node is invalid, please check the gateway settings"
     },
     "viteExplorer": {
-        "title": "Vite Block Explorer"
+        "title": "Divitia Block Explorer"
     },
     "viteScanExplorer": {
-        "title": "ViteScan"
+        "title": "DivitiaScan"
     },
     "wallet": {
         "title": "Quota Management",
@@ -571,11 +571,11 @@
         "confirm": {
             "help": {
                 "t1": "What is Quota?",
-                "txt1": "In the Vite system, users do not purchase the gas required for a transaction by paying a fee, but acquire the computing resource through a quota-based model. Required quota for sending a transaction = the basic quota (request) + quota (the attached text data), quota required to accept a transaction = the basic quota (response). This quota-based resource configuration protocol allows users to obtain higher resource quotas in two ways: Staking dSLS to obtain quota and running PoW.",
+                "txt1": "In the Divitia system, users do not purchase the gas required for a transaction by paying a fee, but acquire the computing resource through a quota-based model. Required quota for sending a transaction = the basic quota (request) + quota (the attached text data), quota required to accept a transaction = the basic quota (response). This quota-based resource configuration protocol allows users to obtain higher resource quotas in two ways: Staking dSLS to obtain quota and running PoW.",
                 "t2": "What is Staking?",
-                "txt2": "In the Vite system, the user can stake dSLS to obtain a certain amount of quota. The minimum value for staking is 134 dSLS, and there is no maximum limit; meanwhile, Vite system also supports that the A-address stakes a part of the dSLS and allocates the obtained quota to the B address. When users apply to stake, dSLS will be sent to the smart contract address instead of another user, and only the user who applies for staking has access to manage the staking amount.",
+                "txt2": "In the Divitia system, the user can stake dSLS to obtain a certain amount of quota. The minimum value for staking is 134 dSLS, and there is no maximum limit; meanwhile, Divitia system also supports that the A-address stakes a part of the dSLS and allocates the obtained quota to the B address. When users apply to stake, dSLS will be sent to the smart contract address instead of another user, and only the user who applies for staking has access to manage the staking amount.",
                 "t3": "What is PoW?",
-                "txt3": "Proof of Work (PoW), is a protocol to confirm that you have done a certain amount of work, and is also an economic measure to deter DDoS attacks and other service abuse. It requires the initiator to conduct a certain amount of computing, which means that it may take some time for the computer. In the Vite system, users can obtain a free quota by running the PoW, and also can send a transaction without any annotated information through obtained quota."
+                "txt3": "Proof of Work (PoW), is a protocol to confirm that you have done a certain amount of work, and is also an economic measure to deter DDoS attacks and other service abuse. It requires the initiator to conduct a certain amount of computing, which means that it may take some time for the computer. In the Divitia system, users can obtain a free quota by running the PoW, and also can send a transaction without any annotated information through obtained quota."
             },
             "cancel": {
                 "describe": "Your current staked amount is {amount} dSLS, please confirm to withdraw.",
@@ -659,7 +659,7 @@
             "describe1": "Rewards that are available for claiming update at 13:00:00 (UTC+8) every day, till {time} you can claim",
             "describe2": "Query mining rewards details, you can",
             "describe3": "click here",
-            "describe4": "Rewards will send to your Vite Web Wallet address after submitting claim request, please check it in Wallet Home Page. Note: Don't repeat claim actions.",
+            "describe4": "Rewards will send to your Divitia Web Wallet address after submitting claim request, please check it in Wallet Home Page. Note: Don't repeat claim actions.",
             "leftBtn": "Not Now",
             "rightBtn": "Claim All"
         },
@@ -780,7 +780,7 @@
         "notice": {
             "title": "Important Notice",
             "contentProvider": "This service is provided by {gate}.",
-            "contentOther": "You agree and acknowledge that Vite Labs would not be responsible for any negative consequences caused by {gate}. Vite platform does not take any part in the relationship that may arise between {gate} and users of Vite platform",
+            "contentOther": "You agree and acknowledge that Divitia Labs would not be responsible for any negative consequences caused by {gate}. Divitia platform does not take any part in the relationship that may arise between {gate} and users of Divitia platform",
             "contentAgree": "By continuing to use {gate}'s service, you agree and acknowledge {gate}'s",
             "agreement": "Terms of Services, Trading Conditions and Privacy Policy",
             "contentUngree": "Please agree to this terms before using {gate}'s service",
@@ -823,7 +823,7 @@
                 "tips": "Select an address to use:",
                 "selectConnectType": "Choose connection type: (Bluetooth is only supported on Ledger Nano X)",
                 "cancelSelect": "Select a device to connect",
-                "connectError": "Connect failed. Please confirm Vite app is opened on device",
+                "connectError": "Connect failed. Please confirm Divitia app is opened on device",
                 "interfaceNotAvailable": "Connect failed. Please check USB cable is connected. If you connect through Bluetooth, switch off Bluetooth and switch on again",
                 "receiveBlockSuccess": "Successfully received {num} transaction",
                 "introduction": {
@@ -833,7 +833,7 @@
                     },
                     "2": {
                         "title": "Step 2: ",
-                        "content": "Open Vite app on Ledger"
+                        "content": "Open Divitia app on Ledger"
                     }
                 }
             },
@@ -889,7 +889,7 @@
         "title": "dSLS Conversion",
         "help": {
             "title": "Quick Understanding of dSLS Conversion",
-            "text": "You can migrate ERC20 tokens into dSLS into our TestNet by dSLS conversion function. In TestNet, casting your vote for official SBPs to collect rewards, the annualized rate can reach 20%. Your ERC20 dSLS tokens will be transferred to Ethereum black hole address: {blackAddr}, you will receive the same amount of dSLS at your Vite address when Ethereum black hole address has received the transaction and confirmed. Once you are in the conversion process, confirm that there are enough dSLS and ETH (as gas) in your Ethereum address of Divitia Wallet."
+            "text": "You can migrate ERC20 tokens into dSLS into our TestNet by dSLS conversion function. In TestNet, casting your vote for official SBPs to collect rewards, the annualized rate can reach 20%. Your ERC20 dSLS tokens will be transferred to Ethereum black hole address: {blackAddr}, you will receive the same amount of dSLS at your Divitia address when Ethereum black hole address has received the transaction and confirmed. Once you are in the conversion process, confirm that there are enough dSLS and ETH (as gas) in your Ethereum address of Divitia Wallet."
         },
         "gas": "Mining Fees",
         "record": "Conversion History",

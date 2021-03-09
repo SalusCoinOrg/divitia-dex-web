@@ -13,7 +13,7 @@ const dexApiServer = { // http-DNS
     production: '""',
     test: '""',
     dev: '""'
-    // dev: '"http://192.168.31.213:8080"'
+    // dev: '"https://vitex.vite.net"'
 };
 const pushServer = { // http-DNS
     production: '"wss://vitex.vite.net/websocket"',
