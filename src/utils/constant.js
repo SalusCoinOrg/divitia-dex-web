@@ -7,14 +7,15 @@ export const defaultTokenMap = {
     'tti_5649544520544f4b454e6e40': {
         tokenId: 'tti_5649544520544f4b454e6e40',
         tokenSymbol: 'dSLS',
+        tokenName: 'Divitia Coin',
         icon: viteIcon,
-        index: 0,
-        ...constant.Vite_Token_Info
+        decimals: 18,
+        index: 0
     },
     'tti_564954455820434f494e69b5': {
         tokenId: 'tti_564954455820434f494e69b5',
-        tokenSymbol: 'VX',
-        tokenName: 'ViteX Coin',
+        tokenSymbol: 'dSLS',
+        tokenName: 'Divitia Coin',
         icon: vxIcon,
         decimals: 18,
         index: 0

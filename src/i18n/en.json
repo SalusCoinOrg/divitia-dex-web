@@ -31,7 +31,7 @@
         "next": "Next",
         "closeTips": "Skip user guide (Not recommended)",
         "trade": [
-            "Manage your assets (both Web Wallet and Divitia DEX exchange) here",
+            "Manage your assets (both Web Wallet and Divitia DEX) here",
             "Check out Open Orders and Order History, know trading details",
             "Participate in mining, acquire VX and trading fee dividends (Mining Dividends)",
             "Experience more features: Staking for Quota, becoming a SBP (Snapshot Block Producer) runner, Voting for SBPs, ERC20 conversion, Transaction Details, etc."
@@ -202,7 +202,7 @@
     },
     "preview": {
         "t": "Version {version}",
-        "txt1": "x.vite.net is a platform integrating the Divitia Wallet and the Divitia DEX exchange, launched by Divitia Labs.",
+        "txt1": "x.vite.net is a platform integrating the Divitia Wallet and the Divitia DEX, launched by Divitia Labs.",
         "txt2": "You can manager and transfer assets, trade, get quota, register SBP and full node, vote, issue tokens, apply for Divitia DEX API, authorize delegated trading, etc.",
         "txt3": "x.vite.net supports mnemonic words, Ledger, and DivitiaConnect.",
         "v": ""
@@ -594,7 +594,7 @@
             "amount": "Amount",
             "withdrawTime": "Expected Due Date",
             "unexpired": "Temporarily cannot make withdrawal of staked token until due date",
-            "vip": "This staking action is for default opening VIP on Divitia DEX exchange, please go to Divitia DEX exchange page to cancel VIP",
+            "vip": "This staking action is for default opening VIP on Divitia DEX, please go to Divitia DEX page to cancel VIP",
             "mining": "This staking is your staking as mining amount on Divitia DEX, please go to Divitia DEX mining page to unstake",
             "other": "This staking is staked via other ways and unstake is not supported here"
         }
