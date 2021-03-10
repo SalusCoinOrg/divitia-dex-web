@@ -21,7 +21,7 @@
     "submitStaking": "Submit Staking",
     "withdrawHeight": "Expected Snapshot Height",
     "balance": "Balance",
-    "dexBalance": "ViteX Balance",
+    "dexBalance": "Divitia-DEX Balance",
     "addrName": "Address{index}",
     "true": "true",
     "false": "false",
@@ -30,7 +30,7 @@
         "next": "Next",
         "closeTips": "Skip user guide (Not recommended)",
         "trade": [
-            "Manage your assets (both Web Wallet and ViteX exchange) here",
+            "Manage your assets (both Web Wallet and Divitia DEX) here",
             "Check out Open Orders and Order History, know trading details",
             "Participate in mining, acquire VX and trading fee dividends (Mining Dividends)",
             "Experience more features: Staking for Quota, becoming a SBP (Snapshot Block Producer) runner, Voting for SBPs, ERC20 conversion, Transaction Details, etc."

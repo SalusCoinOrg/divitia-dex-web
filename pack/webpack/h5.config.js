@@ -7,7 +7,7 @@ const H5_SRC_PATH = path.join(srcPath, '../srcH5');
 const { entry, htmlWebpackPlugins } = getEntry({
     mobileDex: {
         path: path.join(H5_SRC_PATH, '/index.js'),
-        title: 'ViteX',
+        title: 'Divitia DEX',
         favicon: path.join(srcPath, 'assets/imgs/logo.png'),
         template: path.join(srcPath, '../index.html')
     }

@@ -7,7 +7,7 @@ const DEBUG_SRC_PATH = path.join(srcPath, '../srcDebug');
 const { entry, htmlWebpackPlugins } = getEntry({
     debug: {
         path: path.join(DEBUG_SRC_PATH, '/index.js'),
-        title: 'ViteX, Exchange By the Community, For the Community',
+        title: 'Divitia DEX, Exchange By the Community, For the Community',
         favicon: path.join(srcPath, 'assets/imgs/logo.png'),
         template: path.join(srcPath, '../index.html')
     }
