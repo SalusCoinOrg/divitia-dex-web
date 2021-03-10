@@ -75,7 +75,7 @@ export default {
         content() {
             return this.stakeList.map(item => {
                 return {
-                    pledge: `${ bigNumber.formatNum(item.pledgeAmount || 0, 6) } VITE`,
+                    pledge: `${ bigNumber.formatNum(item.pledgeAmount || 0, 6) } dSLS`,
                     amount: {
                         amount: `${ bigNumber.formatNum(item.miningAmount || 0, 8) }`,
                         token: 'VX'

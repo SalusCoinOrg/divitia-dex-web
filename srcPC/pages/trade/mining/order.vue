@@ -1,7 +1,7 @@
 <template>
     <div class="trade-mining-section shadow">
         <div class="staking-detail">
-            <div class="item" v-for="tokenType in ['VITE', 'BTC', 'ETH', 'USDT']" :key="tokenType">
+            <div class="item" v-for="tokenType in ['dSLS', 'BTC', 'ETH', 'USDT']" :key="tokenType">
                 <div>{{ $t("orderMining.estimate", { name: tokenType }) }}</div>
                 <div class="bold">{{ estimateInfo[tokenType] || '--' }}</div>
             </div>

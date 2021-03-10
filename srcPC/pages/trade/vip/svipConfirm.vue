@@ -5,12 +5,12 @@ block content
         .__row_t {{ $t('tokenCard.heads.availableExAmount') }}
         .__input_row.__unuse_input.__bold
             img.__icon(:src="viteTokenInfo ? viteTokenInfo.icon : ''")
-            span {{ "VITE" }}
+            span {{ "dSLS" }}
             span.__right.blue {{ exViteBalance }}
     .__row
         .__row_t {{ $t('tradeVip.svipConfirm.openStakingAmount') }}
             .__err(v-if="isNoBalance") {{ $t('tradeVip.vipConfirm.noBalance') }}
-        .__input_row.__unuse_input 1,000,000 VITE
+        .__input_row.__unuse_input 1,000,000 dSLS
     .__row
         .__row_t {{ $t('tradeVip.svipConfirm.address') }}
             .__err(v-if="!isAddress") {{ $t('hint.addrFormat') }}

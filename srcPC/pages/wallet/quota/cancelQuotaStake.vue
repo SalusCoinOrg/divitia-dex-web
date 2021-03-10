@@ -8,7 +8,7 @@
             <div class="__row_t">
                 {{ $t(`walletQuota.confirm.cancel.describe`, { amount: showStakingAmount }) }}
             </div>
-            <div class="__input_row __unuse_input">{{ showStakingAmount }} VITE</div>
+            <div class="__input_row __unuse_input">{{ showStakingAmount }} dSLS</div>
         </div>
     </confirm>
 </template>

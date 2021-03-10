@@ -6,7 +6,7 @@
         <div class="__row">
             <div class="__row_t">{{ $t('tokenCard.heads.availableExAmount') }}</div>
             <div class="__input_row __unuse_input __bold">
-                <img :src="viteTokenInfo ? viteTokenInfo.icon : ''" class="__icon" />VITE
+                <img :src="viteTokenInfo ? viteTokenInfo.icon : ''" class="__icon" />dSLS
                 <span class="__right">{{ exViteBalance }}</span>
             </div>
         </div>

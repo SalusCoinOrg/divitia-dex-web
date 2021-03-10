@@ -11,7 +11,7 @@
         <div class="item no-border">
             <div>{{ $t("tradeDividend.unlockAmount") }}</div>
             <div class="bold">
-                {{ `${cancellingStake} VITE` }}
+                {{ `${cancellingStake} dSLS` }}
                 <span v-show="viteBalanceInfo.cancellingStake" @click="showCancelStakeDetails" class="down-icon __pointer"></span>
             </div>
         </div>

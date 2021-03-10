@@ -7,7 +7,7 @@
         <div v-if="!isVip" class="__row">
             <div class="__row_t">{{ $t('tokenCard.heads.availableExAmount') }}</div>
             <div class="__input_row __unuse_input __bold">
-                <img :src="viteTokenInfo.icon" class="__icon" />VITE
+                <img :src="viteTokenInfo.icon" class="__icon" />dSLS
                 <span class="__right">{{ exViteBalance }}</span>
             </div>
         </div>
@@ -17,7 +17,7 @@
                 <div v-show="!canOrder && !isVip" class="__err">{{ $t('tradeVip.vipConfirm.noBalance') }}</div>
                 <div v-show="!canOrder && isVip" class="__err">{{ $t('walletQuota.list.unexpired') }}</div>
             </div>
-            <div class="__input_row __unuse_input">10,000 VITE</div>
+            <div class="__input_row __unuse_input">10,000 dSLS</div>
         </div>
 
         <div class="__hint"><span>{{ hint }}</span></div>

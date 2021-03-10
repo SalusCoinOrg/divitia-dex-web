@@ -18,7 +18,7 @@
                 {{ $t('tradeTxPairManage.openTxPairConfirm.fee') }}
                 <span v-show="!isHaveBalance" class="__err">{{ $t('hint.insufficientBalance') }}</span>
             </div>
-            <div class="__input_row __unuse_input">{{ spend }} VITE</div>
+            <div class="__input_row __unuse_input">{{ spend }} dSLS</div>
         </div>
 
         <div class="__hint"><span>{{ $t('tradeTxPairManage.openTxPairConfirm.hint') }}</span></div>
@@ -83,7 +83,7 @@ export default {
                         },
                         vbExtends: {
                             'type': 'dexNewMarket',
-                            'fee': '10000 VITE'
+                            'fee': '10000 dSLS'
                         }
                     }).then(() => {
                         this.$toast(this.$t('tradeTxPairManage.openTxPairConfirm.reqSuccess'));

@@ -4,7 +4,7 @@
                :title="$t('mobileDividend.poolTitle', { token: 'BTC' })">
         <div class="head-detail">
             <template v-for="tokenType in typeList">
-                <div class="item" v-if="tokenType.name !== 'VITE'" :key="tokenType.name">
+                <div class="item" v-if="tokenType.name !== 'dSLS'" :key="tokenType.name">
                     <div class="item-title">
                         <img :src="tokenType.h5Icon" />{{ tokenType.name }}
                     </div>
@@ -98,7 +98,7 @@ export default {
 
                 this.pool = {};
                 const tokenIds = [];
-                const tokenList = [ 'VITE', 'ETH', 'BTC', 'USDT' ];
+                const tokenList = [ 'dSLS', 'ETH', 'BTC', 'USDT' ];
 
                 for (const tokenId in data) {
                     const token = data[tokenId];
@@ -130,7 +130,7 @@ export default {
             const map = {
                 BTC: 8,
                 ETH: 8,
-                VITE: 4,
+                dSLS: 4,
                 USDT: 2
             };
             return bigNumber.formatNum(amount, map[tokenSymbol]);

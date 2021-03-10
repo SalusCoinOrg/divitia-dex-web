@@ -13,7 +13,7 @@
                 <vite-input class="pledge-input-wrapper" type="number"
                             v-model="amount" :valid="testAmount"
                             :placeholder="$t('walletQuota.amountPlaceholder', { num: minNum })">
-                    <span slot="after" class="unit">VITE</span>
+                    <span slot="after" class="unit">dSLS</span>
                 </vite-input>
             </div>
         </div>

@@ -47,7 +47,7 @@ export default {
             this.list.forEach(item => {
                 list.push({
                     time: date(item.expirationTime * 1000, 'zh'),
-                    amount: `${ bigNumber.toBasic(item.amount, Vite_Token_Info.decimals) } VITE`
+                    amount: `${ bigNumber.toBasic(item.amount, Vite_Token_Info.decimals) } dSLS`
                 });
             });
             return list;

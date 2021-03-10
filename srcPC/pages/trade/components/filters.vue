@@ -135,7 +135,7 @@ export default {
             }
 
             const filterToken = this.ftokenMap.filter(t => t.tokenId === VITE_TOKENID);
-            this.ftoken = filterToken.length > 0 ? 'VITE' : this.ftokenMap[0].symbol;
+            this.ftoken = filterToken.length > 0 ? 'dSLS' : this.ftokenMap[0].symbol;
             this.isInitFtoken = true;
         },
         isInitFtoken() {

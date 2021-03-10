@@ -23,7 +23,7 @@
             <span class="_row_title">{{ $t('walletMintage.mintageConfirm.balance') }} : </span>{{ showBalance }}
         </div>
         <div class="_row">
-            <span class="_row_title">{{ $t('walletMintage.mintageConfirm.fee') }} : </span>{{ fee }} VITE
+            <span class="_row_title">{{ $t('walletMintage.mintageConfirm.fee') }} : </span>{{ fee }} dSLS
             <span v-show="btnUnuse" class="err">{{ $t('hint.insufficientBalance') }}</span>
         </div>
     </confirm>

@@ -80,7 +80,7 @@ export default {
             this.list.forEach(item => {
                 list.push({
                     time: date(item.expirationTime * 1000, 'zh'),
-                    amount: `${ bigNumber.toBasic(item.stakeAmount, Vite_Token_Info.decimals) } VITE`,
+                    amount: `${ bigNumber.toBasic(item.stakeAmount, Vite_Token_Info.decimals) } dSLS`,
                     height: item.expirationHeight,
                     canCancel: bigNumber.compared(item.expirationHeight, this.height) <= 0,
                     rawData: item

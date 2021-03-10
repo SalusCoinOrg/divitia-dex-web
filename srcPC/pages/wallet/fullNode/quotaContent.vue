@@ -4,7 +4,7 @@
             <div class="row-item add-padding">
                 <div class="title">{{ $t('walletFullNode.quotaContent.onlineReward') }}</div>
                 <div class="light">{{ $t('walletFullNode.quotaContent.yesterday') }}</div>
-                <div class="text">{{ info.totalYesterdayFullReward || '--' }} VITE</div>
+                <div class="text">{{ info.totalYesterdayFullReward || '--' }} dSLS</div>
                 <div class="light">{{ $t('walletFullNode.quotaContent.all', {
                     num: info.totalFullReward || '--'
                 }) }}</div>
@@ -12,7 +12,7 @@
             <div class="row-item add-padding">
                 <div class="title">{{ $t('walletFullNode.quotaContent.voteReward') }}</div>
                 <div class="light">{{ $t('walletFullNode.quotaContent.yesterday') }}</div>
-                <div class="text">{{ info.totalYesterdayVoteReward || '--' }} VITE</div>
+                <div class="text">{{ info.totalYesterdayVoteReward || '--' }} dSLS</div>
                 <div class="light">{{ $t('walletFullNode.quotaContent.all', {
                     num: info.totalVoteReward || '--'
                 }) }}</div>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="row-item">
                     <div class="light">{{ $t('walletFullNode.quotaContent.stakeAmount') }}</div>
-                    <div class="text">{{ (info.pledgeAmount||0)|formatNum  }} VITE</div>
+                    <div class="text">{{ (info.pledgeAmount||0)|formatNum  }} dSLS</div>
                 </div>
             </div>
         </div>

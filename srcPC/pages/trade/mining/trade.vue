@@ -1,7 +1,7 @@
 <template>
     <div class="trade-mining-section shadow">
         <div class="staking-detail">
-            <div class="item" v-for="tokenType in ['VITE', 'BTC', 'ETH', 'USDT']" :key="tokenType">
+            <div class="item" v-for="tokenType in ['dSLS', 'BTC', 'ETH', 'USDT']" :key="tokenType">
                 <div>{{ tokenType }} {{ $t('tradeMining.fee') }}</div>
                 <div class="bold">
                     {{ expectedDividends && expectedDividends[tokenType] ? expectedDividends[tokenType].fee : 0 }}
@@ -89,7 +89,7 @@ export default {
                         item.miningToken
                     }`,
                     pledge: `${ bigNumber.formatNum(item.pledgeAmount || 0,
-                        8) } VITE`,
+                        8) } dSLS`,
                     mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`
                 };
             });

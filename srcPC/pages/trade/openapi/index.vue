@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="__form_input_title"> {{$t('trade.openapi.agentAddressStakingAmount')}} </div>
                     <div class="__form__input_content staking-amount">
-                        {{(apiInfo.agentPledgeAmount || 0) | formatNum(18, 0)}} VITE
+                        {{(apiInfo.agentPledgeAmount || 0) | formatNum(18, 0)}} dSLS
                         <span class="__small_btn" @click="_goStaking">{{$t('trade.openapi.staking')}}</span>
                     </div>
                 </div>

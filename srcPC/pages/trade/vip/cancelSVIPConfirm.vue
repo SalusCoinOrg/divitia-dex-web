@@ -6,7 +6,7 @@
 
         <div class="__row">
             <div class="__row_t">{{ $t('tradeVip.svipConfirm.cancelStakingAmount') }}</div>
-            <div class="__input_row __unuse_input">{{ amount }} VITE</div>
+            <div class="__input_row __unuse_input">{{ amount }} dSLS</div>
         </div>
 
         <div class="__row">

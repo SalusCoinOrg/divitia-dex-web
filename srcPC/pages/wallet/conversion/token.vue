@@ -10,7 +10,7 @@
             <div class="btn-list">
                 <div class="btn __pointer" :class="classList"
                      @click="_sendTx('transfer', token.name)">{{ $t('sendTrans.symbol') }}</div>
-                <div v-show="token.symbol === 'VITE'" @click="_sendTx('exchange', token.name)"
+                <div v-show="token.symbol === 'dSLS'" @click="_sendTx('exchange', token.name)"
                      class="btn __pointer" :class="classList">
                     {{ $t('walletConversion.exchange.vite') }}</div>
             </div>
@@ -53,7 +53,7 @@ export default {
             return {
                 '__btn_all_in': haveBalance,
                 'unuse': !haveBalance,
-                'only': this.token.symbol !== 'VITE'
+                'only': this.token.symbol !== 'dSLS'
             };
         }
     },

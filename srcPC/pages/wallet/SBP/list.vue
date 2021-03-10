@@ -80,7 +80,7 @@
                   :cancelTxt="$t('walletSBP.rewardConfirm.leftBtn')"
                   :isShowPWD="isShowPWD" :cancel="hideReward" :submit="sendReward">
             {{ $t('walletSBP.rewardConfirm.describe1', { time: this.getTime(new Date().getTime()) }) }}
-            <div class="__unuse_input __input_row __bold">VITE
+            <div class="__unuse_input __input_row __bold">dSLS
                 <span class="__right">{{ totalReward || '--' }}</span>
             </div>
             <div class="__hint">

@@ -73,7 +73,7 @@ export default {
                     date: date(item.date * 1000, this.$i18n.locale),
                     vxQuantity: bigNumber.formatNum(item.vxQuantity, 4),
                     ETH: dividendStat.ETH ? this.formatNum(dividendStat.ETH.dividendAmount || 0, 'ETH') : 0,
-                    VITE: dividendStat.VITE ? this.formatNum(dividendStat.VITE.dividendAmount || 0, 'VITE') : 0,
+                    dSLS: dividendStat.VITE ? this.formatNum(dividendStat.VITE.dividendAmount || 0, 'dSLS') : 0,
                     BTC: dividendStat.BTC ? this.formatNum(dividendStat.BTC.dividendAmount || 0, 'BTC') : 0,
                     USDT: dividendStat.USDT ? this.formatNum(dividendStat.USDT.dividendAmount || 0, 'USDT') : 0,
                     price: this.getPrice(dividendStat)
@@ -131,7 +131,7 @@ export default {
             const map = {
                 BTC: 8,
                 ETH: 8,
-                VITE: 4,
+                dSLS: 4,
                 USDT: 2
             };
             return bigNumber.formatNum(amount, tokenSymbol ? map[tokenSymbol] : 8);

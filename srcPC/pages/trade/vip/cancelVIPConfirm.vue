@@ -6,7 +6,7 @@
 
         <div class="__row">
             <div class="__row_t">{{ stakingText }}</div>
-            <div class="__input_row __unuse_input">{{ cancelItem ? cancelItem.amount : 0 }} VITE</div>
+            <div class="__input_row __unuse_input">{{ cancelItem ? cancelItem.amount : 0 }} dSLS</div>
         </div>
 
         <div class="__hint" v-if="isSVip"><span>{{ $t('tradeVip.vipConfirm.adviseToCancel') }}</span></div>

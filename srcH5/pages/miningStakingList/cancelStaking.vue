@@ -7,7 +7,7 @@
         <div class="__row">
             <div class="__row_t">{{ $t('tradeMining.stakingBalance') }}</div>
             <div class="__input_row __unuse_input __bold">
-                <img :src="viteTokenInfo ? viteTokenInfo.icon : ''" class="__icon" />VITE
+                <img :src="viteTokenInfo ? viteTokenInfo.icon : ''" class="__icon" />dSLS
                 <span class="__right">{{ stakingAmount }}</span>
             </div>
         </div>

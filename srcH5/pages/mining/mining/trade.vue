@@ -87,7 +87,7 @@ export default {
         content() {
             return this.tradeList.map(item => {
                 let decimals = 8;
-                if (item.miningToken === 'VITE') {
+                if (item.miningToken === 'dSLS') {
                     decimals = 6;
                 }
                 return {

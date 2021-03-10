@@ -7,7 +7,7 @@
                      v-for="(item, i) in contentList" :key="i">
                     <div class="row">
                         <span>{{ $t('withdrawHeight') }}: {{ item.height }}</span>
-                        <span><b class="amount">{{ item.amount }}</b> VITE</span>
+                        <span><b class="amount">{{ item.amount }}</b> dSLS</span>
                     </div>
                     <div class="row">
                         <span>{{ $t('walletQuota.list.withdrawTime') }}: {{ item.time }}</span>

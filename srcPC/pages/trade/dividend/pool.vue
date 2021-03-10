@@ -10,7 +10,7 @@
         </div>
 
         <template v-for="tokenType in typeList">
-            <div class="pool item" v-if="tokenType.name !== 'VITE'" :key="tokenType.name">
+            <div class="pool item" v-if="tokenType.name !== 'dSLS'" :key="tokenType.name">
                 <img class="icon" :src="tokenType.icon" />
                 <div class="token-wrapper __pointer" v-click-outside="hideTokenList" @click.stop="showTokenList(tokenType)">
                     <div>{{ tokenType.name }}</div>
@@ -123,7 +123,7 @@ export default {
 
                 this.pool = {};
                 const tokenIds = [];
-                const tokenList = [ 'VITE', 'ETH', 'BTC', 'USDT' ];
+                const tokenList = [ 'dSLS', 'ETH', 'BTC', 'USDT' ];
 
                 for (const tokenId in data) {
                     const token = data[tokenId];
@@ -155,7 +155,7 @@ export default {
             const map = {
                 BTC: 8,
                 ETH: 8,
-                VITE: 4,
+                dSLS: 4,
                 USDT: 2
             };
             return bigNumber.formatNum(amount, map[tokenSymbol]);

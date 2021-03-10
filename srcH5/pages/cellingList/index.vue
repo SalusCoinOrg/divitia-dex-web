@@ -59,7 +59,7 @@ export default {
             const list = [];
             this.list.forEach(item => {
                 list.push({
-                    amount: `${ bigNumber.toBasic(item.amount, this.viteTokenDecimals) } VITE`,
+                    amount: `${ bigNumber.toBasic(item.amount, this.viteTokenDecimals) } dSLS`,
                     time: date(item.expirationTime * 1000, 'zh')
                 });
             });
