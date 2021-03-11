@@ -8,7 +8,7 @@
                 </div>
                 <div class="light">
                     <span>{{ $t('tradeMining.dividends') }}</span>
-                    {{ expectedDividends && expectedDividends[tokenType] ? expectedDividends[tokenType].dividend : 0 }}VX
+                    {{ expectedDividends && expectedDividends[tokenType] ? expectedDividends[tokenType].dividend : 0 }}dSLS
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@ export default {
                     }`,
                     pledge: `${ bigNumber.formatNum(item.pledgeAmount || 0,
                         8) } dSLS`,
-                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`
+                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } dSLS`
                 };
             });
         },

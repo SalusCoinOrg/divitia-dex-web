@@ -69,7 +69,7 @@ export default {
                 return {
                     date: date(item.date * 1000, this.$i18n.locale),
                     ratio: `${ bigNumber.multi(item.miningPercent, 100, 2) }%`,
-                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`
+                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } dSLS`
                 };
             });
         },

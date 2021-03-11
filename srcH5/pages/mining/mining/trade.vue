@@ -2,7 +2,7 @@
     <div class="trade-mining-section">
         <myIncome class="staking-income-wrapper" :total="`${miningTotal}`"
                   :isShowHelp="true" :helpTips="$t('tradeMining.help')"
-                  :title="$t('mobileMining.tradeTotalIncome', {token: 'VX'})">
+                  :title="$t('mobileMining.tradeTotalIncome', {token: 'dSLS'})">
             <div class="amount-detail">
                 <div class="amount-detail-item" v-for="item in typeList" :key="item.name">
                     <div class="item-title">
@@ -15,7 +15,7 @@
                     <div class="item-dividend">
                         <span>{{ $t('tradeMining.dividends') }}</span>
                         {{ expectedDividends && expectedDividends[item.name] ? expectedDividends[item.name].dividend : 0 }}
-                        VX
+                        dSLS
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@ export default {
                     fee: `${ bigNumber.formatNum(item.feeAmount || 0, decimals) } ${ item.miningToken }`,
                     amount: {
                         amount: `${ bigNumber.formatNum(item.miningAmount || 0, 6) }`,
-                        token: 'VX'
+                        token: 'dSLS'
                     }
                 };
             });

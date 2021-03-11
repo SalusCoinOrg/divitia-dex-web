@@ -21,11 +21,11 @@ block content
                 option(:value="index + 1" v-for="item, index in new Array(12)" :key="index") {{ (index + 1)  + $t('trade.openapi.upgradeConfirm.month') }}
     .__row.key-confirm-tips
         .__row_t {{ $t('trade.openapi.upgradeConfirm.balance') }}
-        .__input_row {{ balance | toBasic(18)}} VX
+        .__input_row {{ balance | toBasic(18)}} dSLS
     .__row.key-confirm-tips(v-if="selectPackage")
         .__row_t {{ $t('trade.openapi.upgradeConfirm.payAmount') }}
             span.__err(v-show="amountErr") {{ amountErr }}
-        .__input_row {{ payAmount }} VX
+        .__input_row {{ payAmount }} dSLS
 
 
 </template>

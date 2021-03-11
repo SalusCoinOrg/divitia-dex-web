@@ -3,7 +3,7 @@
         <div class="amount-detail">
             <div class="item-title">
                 <img :src="vxIcon" /> {{ $t('tradeMining.dividends')}}
-                <span>{{ expectedDividends || '--' }} VX</span>
+                <span>{{ expectedDividends || '--' }} dSLS</span>
             </div>
         </div>
     </div>

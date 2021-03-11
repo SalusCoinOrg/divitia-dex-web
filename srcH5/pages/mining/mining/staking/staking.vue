@@ -1,7 +1,7 @@
 <template>
     <div class="trade-mining-section">
         <my-income class="staking-income-wrapper" :total="`${miningTotal}`"
-                   :title="$t('mobileMining.stakingTotalIncome', {token: 'VX'})">
+                   :title="$t('mobileMining.stakingTotalIncome', {token: 'dSLS'})">
         </my-income>
 
         <staking-detail :addStaking="addStaking"></staking-detail>
@@ -78,7 +78,7 @@ export default {
                     pledge: `${ bigNumber.formatNum(item.pledgeAmount || 0, 6) } dSLS`,
                     amount: {
                         amount: `${ bigNumber.formatNum(item.miningAmount || 0, 8) }`,
-                        token: 'VX'
+                        token: 'dSLS'
                     },
                     date: date(item.date * 1000, this.$i18n.locale)
                 };

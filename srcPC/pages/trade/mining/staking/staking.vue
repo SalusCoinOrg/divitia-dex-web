@@ -85,7 +85,7 @@ export default {
                     }`,
                     pledge: `${ bigNumber.formatNum(item.pledgeAmount || 0,
                         8) } dSLS`,
-                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`
+                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } dSLS`
                 };
             });
         },

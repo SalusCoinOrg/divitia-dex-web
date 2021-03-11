@@ -45,7 +45,7 @@ export default {
                     ratio: `${ bigNumber.multi(item.miningPercent, 100, 2) }%`,
                     amount: {
                         amount: `${ bigNumber.formatNum(item.miningAmount || 0, 8) }`,
-                        token: 'VX'
+                        token: 'dSLS'
                     }
                 };
             });

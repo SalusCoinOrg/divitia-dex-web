@@ -45,7 +45,7 @@ export default {
                     fee: `${ bigNumber.formatNum(item.feeAmount || 0, 8) } ${ item.miningToken }`,
                     amount: {
                         amount: `${ bigNumber.formatNum(item.miningAmount || 0, 8) }`,
-                        token: 'VX'
+                        token: 'dSLS'
                     }
                 };
             });

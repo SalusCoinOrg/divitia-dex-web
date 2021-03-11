@@ -23,7 +23,7 @@
                     <div class="list-item" v-show="contentList && contentList.length"
                          v-for="(item, i) in contentList" :key="i">
                         <span class="small-item big">{{ item.date }}</span>
-                        <span class="small-item big"><span class="vx-amount">{{ item.vxQuantity }}</span> VX</span>
+                        <span class="small-item big"><span class="vx-amount">{{ item.vxQuantity }}</span> dSLS</span>
                         <span class="small-item">{{ item.BTC }} BTC</span>
                         <span class="small-item">{{ item.ETH }} ETH</span>
                         <span class="small-item">{{ item.USDT }} USDT</span>

@@ -69,7 +69,7 @@ export default {
                 return {
                     date: date(item.date * 1000, this.$i18n.locale),
                     fee: `${ bigNumber.formatNum(item.feeAmount || 0, 8) } ${ item.miningToken }`,
-                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`
+                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } dSLS`
                 };
             });
         },

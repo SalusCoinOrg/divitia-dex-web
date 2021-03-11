@@ -1,7 +1,7 @@
 <template>
     <div class="trade-mining-section">
         <my-income :total="`${miningTotal}`"
-                   :title="$t('mobileMining.orderTotalIncome', {token: 'VX'})">
+                   :title="$t('mobileMining.orderTotalIncome', {token: 'dSLS'})">
             <div class="amount-detail">
                 <div class="item-title" v-for="item in typeList" :key="item.name">
                     <img :src="item.h5Icon" /> {{ $t('tradeMining.dividends')}}
@@ -71,7 +71,7 @@ export default {
                     ratio: `${ bigNumber.multi(item.miningRatio, 100, 2) }%`,
                     amount: {
                         amount: `${ bigNumber.formatNum(item.miningAmount || 0, 8) }`,
-                        token: 'VX'
+                        token: 'dSLS'
                     }
                 };
             });
@@ -118,7 +118,7 @@ export default {
                 const orderMiningStat = data.orderMiningStat;
                 for (const tokenName in orderMiningStat) {
                     const amount = orderMiningStat[tokenName];
-                    orderMiningStat[tokenName] = `${ bigNumber.formatNum(amount || 0, 8) } VX`;
+                    orderMiningStat[tokenName] = `${ bigNumber.formatNum(amount || 0, 8) } dSLS`;
                 }
                 this.estimateInfo = data.orderMiningStat;
             }).catch(err => {

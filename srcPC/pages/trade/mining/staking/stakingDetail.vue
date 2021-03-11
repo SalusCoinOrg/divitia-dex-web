@@ -4,7 +4,7 @@
             <div>{{ $t("stakingAmount") }}</div>
             <div class="bold">{{ totalStakingAmount }}</div>
             <div class="light">
-                <span>{{ $t('tradeMining.dividends') }}</span> {{ `${expectedDividends} VX` }}
+                <span>{{ $t('tradeMining.dividends') }}</span> {{ `${expectedDividends} dSLS` }}
             </div>
         </div>
 

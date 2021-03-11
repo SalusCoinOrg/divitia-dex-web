@@ -13,7 +13,7 @@
                         <help-tips :helpText="$t('tradeMining.help')"></help-tips>
                     </div>
                     <div class="amount">
-                        {{ tradeMiningTotal | formatNum }} VX
+                        {{ tradeMiningTotal | formatNum }} dSLS
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                 <div>
                     <div class="label">{{ $t("tradeMining.quotaTitle") }}</div>
                     <div class="amount">
-                        {{ stakingMiningTotal | formatNum }} VX
+                        {{ stakingMiningTotal | formatNum }} dSLS
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 <div>
                     <div class="label">{{ $t("inviteMining.title") }}</div>
                     <div class="amount">
-                        {{ inviteMiningTotal | formatNum }} VX
+                        {{ inviteMiningTotal | formatNum }} dSLS
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                 <div>
                     <div class="label">{{ $t("orderMining.title") }}</div>
                     <div class="amount">
-                        {{ orderMiningTotal | formatNum }} VX
+                        {{ orderMiningTotal | formatNum }} dSLS
                     </div>
                 </div>
             </div>

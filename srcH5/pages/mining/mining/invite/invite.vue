@@ -1,7 +1,7 @@
 <template>
     <div class="trade-mining-section">
         <my-income :total="`${inviteTotal}`"
-                   :title="$t('mobileMining.inviteTotalIncome', {token: 'VX'})">
+                   :title="$t('mobileMining.inviteTotalIncome', {token: 'dSLS'})">
             <div class="head-detail">
                 <div class="item">
                     <div class="item-title">

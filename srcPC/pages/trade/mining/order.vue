@@ -99,7 +99,7 @@ export default {
                 return {
                     date: date(item.date * 1000, this.$i18n.locale),
                     ratio: `${ bigNumber.multi(item.miningRatio, 100, 2) }%`,
-                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`,
+                    mining: `${ bigNumber.formatNum(item.miningAmount || 0, 8) } dSLS`,
                     cycleKey: item.cycleKey
                 };
             });
@@ -156,7 +156,7 @@ export default {
                 data = data || [];
                 data.forEach(item => {
                     item.ratio = `${ bigNumber.multi(item.miningRatio, 100, 2) }%`;
-                    item.mining = `${ bigNumber.formatNum(item.miningAmount || 0, 8) } VX`;
+                    item.mining = `${ bigNumber.formatNum(item.miningAmount || 0, 8) } dSLS`;
                 });
 
                 this.errMsg = '';
@@ -178,7 +178,7 @@ export default {
                 const orderMiningStat = data.orderMiningStat;
                 for (const tokenName in orderMiningStat) {
                     const amount = orderMiningStat[tokenName];
-                    orderMiningStat[tokenName] = `${ bigNumber.formatNum(amount || 0, 8) } VX`;
+                    orderMiningStat[tokenName] = `${ bigNumber.formatNum(amount || 0, 8) } dSLS`;
                 }
                 this.estimateInfo = data.orderMiningStat;
             }).catch(err => {
