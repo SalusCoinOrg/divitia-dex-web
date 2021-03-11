@@ -8,7 +8,7 @@
         <div class="__row">
             <div class="__row_t">{{ confirmText.available }}</div>
             <div class="__input_row __unuse_input __bold">
-                <img :src="vxTokenInfo.icon" class="__icon" />VX
+                <img :src="vxTokenInfo.icon" class="__icon" />dSLS
                 <span class="__right">{{ basicAvailableAmount }}</span>
             </div>
         </div>

@@ -33,7 +33,7 @@
         "trade": [
             "Manage your assets (both Web Wallet and Divitia DEX) here",
             "Check out Open Orders and Order History, know trading details",
-            "Participate in mining, acquire VX and trading fee dividends (Mining Dividends)",
+            "Participate in mining, acquire dSLS and trading fee dividends (Mining Dividends)",
             "Experience more features: Staking for Quota, becoming a SBP (Snapshot Block Producer) runner, Voting for SBPs, ERC20 conversion, Transaction Details, etc."
         ],
         "assets": [
@@ -1087,7 +1087,7 @@
             "callNum": "Triggers/min",
             "callNumInfo": "{maxCount} transactions/min",
             "price": "Cost",
-            "priceInfo": "{price} VX/mth",
+            "priceInfo": "{price} dSLS/mth",
             "upgrade": "Upgrade",
             "balanceAlert": "Cannot create if dSLS balance is less than {balanceLimit}.",
             "noSupportForHardware": "Hardware Wallet is not supported at the moment",
@@ -1127,7 +1127,7 @@
                 "selectTime": "Valid For",
                 "month": " Mth",
                 "payAmount": "Total",
-                "balance": "VX Balance"
+                "balance": "dSLS Balance"
             }
         }
     },
@@ -1305,7 +1305,7 @@
         "addHint1": "Single stake should be at least 134 dSLS",
         "addHint2": "dSLS staking will be effective immediately after submission. Staking can be canceled after 3 days",
         "addHint3": "Staked amount will be released after the 7-day waiting period",
-        "withdrawHint1": "You will no longer be able to mining VX after the staking is canceled",
+        "withdrawHint1": "You will no longer be able to mining dSLS after the staking is canceled",
         "withdrawHint2": "It takes 7 days to return unstaked dSLS coins to exchange balance",
         "addTitle": "Stake dSLS for Mining",
         "withdrawTitle": "Unstake dSLS",
@@ -1315,8 +1315,8 @@
         "withdrawBtn": "Confirm to Unstake",
         "stakingBalance": "Available Stake Balance",
         "hintTitle": "Important Notice",
-        "comingHint": "VX mining function is coming soon, stay tuned. You can get VX in five ways: 1. Trading as Mining, 2. Listing as Mining, 3. Referring as Mining, 4. Staking as Mining, 5. Market-making as Mining. Users who hold VX enjoy payouts from a shared dividend pool.",
-        "more": "Learn more about VX mining rules",
+        "comingHint": "dSLS mining function is coming soon, stay tuned. You can get dSLS in five ways: 1. Trading as Mining, 2. Listing as Mining, 3. Referring as Mining, 4. Staking as Mining, 5. Market-making as Mining. Users who hold dSLS enjoy payouts from a shared dividend pool.",
+        "more": "Learn more about dSLS mining rules",
         "fee": "Trading Fees",
         "todayTrade": "Mining Details",
         "dividends": "24H Expected Mined Volume",
@@ -1398,44 +1398,44 @@
         "listTitle": "My Dividends",
         "allPrice": "Total Estimated Value",
         "date": "Date",
-        "VX": "Stake VX",
+        "VX": "Stake dSLS",
         "coin": "Type",
         "amount": "Amount",
         "price": "Total Estimated Value",
         "hintTitle": "Important Notice",
-        "comingHint": "VX mining and dividend functions are coming soon, stay tuned. The system will distribute 1% of BTC, ETH, dSLS, USDT of the total pool to all VX users proportional to the amount of VX they hold. The initial dividend pool will start at 0 and will grow according to the amount of fees collected by Divitia DEX. Traders must have a minimum of 10 VX in order to receive dividends from a shared dividend pool comprised of base transaction, listing and referral code generating fees. ",
-        "more": "Learn more about VX dividend rules",
-        "help": "Reward Rules: 1. A minimum of 10 VX must be staked to receive dividends. 2. Submission of staking request allows for dividends starting the nearest distribution. 3. Staked amount will be released after the 7-day waiting period",
+        "comingHint": "dSLS mining and dividend functions are coming soon, stay tuned. The system will distribute 1% of BTC, ETH, dSLS, USDT of the total pool to all dSLS users proportional to the amount of dSLS they hold. The initial dividend pool will start at 0 and will grow according to the amount of fees collected by Divitia DEX. Traders must have a minimum of 10 dSLS in order to receive dividends from a shared dividend pool comprised of base transaction, listing and referral code generating fees. ",
+        "more": "Learn more about dSLS dividend rules",
+        "help": "Reward Rules: 1. A minimum of 10 dSLS must be staked to receive dividends. 2. Submission of staking request allows for dividends starting the nearest distribution. 3. Staked amount will be released after the 7-day waiting period",
         "lockedAmount": "Staking Amount",
-        "lockAmountTips": "Receive Dividends on 10 VX or Above",
+        "lockAmountTips": "Receive Dividends on 10 dSLS or Above",
         "unlockAmount": "Unlocking Amount",
-        "addHint1": "A minimum of 10 VX must be staked to receive dividends",
+        "addHint1": "A minimum of 10 dSLS must be staked to receive dividends",
         "addHint2": "Submission of staking request allows for dividends starting the nearest distribution",
         "addHint3": "Staked amount will be released after the 7-day waiting period",
         "autoLock": "Automatic Staking",
         "openAutoLock": {
             "title": "Enable Automatic Staking",
-            "text": "Mined VX will be automatically staked once enabled"
+            "text": "Mined dSLS will be automatically staked once enabled"
         },
         "closeAutoLock": {
             "title": "Disable Automatic Staking",
-            "text": "Mined VX will not be automatically staked when turned off"
+            "text": "Mined dSLS will not be automatically staked when turned off"
         },
         "lock": "Stake",
         "unlock": "Unstake",
-        "lessMin": "Minimum 1 VX",
+        "lessMin": "Minimum 1 dSLS",
         "lockVXConfirm": {
-            "title": "Stake VX",
+            "title": "Stake dSLS",
             "available": "Exchange Available Balance",
-            "amountPlaceholder": "Please input staking amount, minimum 1 VX",
+            "amountPlaceholder": "Please input staking amount, minimum 1 dSLS",
             "notEnough": "Insufficient Exchange Balance",
             "submit": "Confirm to Stake",
             "amountText": "Amount"
         },
         "unlockVXConfirm": {
-            "title": "Unstake VX",
+            "title": "Unstake dSLS",
             "available": "Available Stake Balance",
-            "amountPlaceholder": "Please input amount, minimum 1 VX",
+            "amountPlaceholder": "Please input amount, minimum 1 dSLS",
             "notEnough": "Insufficient Amount",
             "submit": "Confirm to Unstake",
             "amountText": "Amount",
