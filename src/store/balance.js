@@ -65,12 +65,6 @@ const getters = {
 
         return balance;
     },
-    exVXBalanceInfo(state) {
-        if (!state.balanceList || !state.balanceList[VX_TOKENID]) {
-            return {};
-        }
-        return state.balanceList[VX_TOKENID];
-    },
     exViteBalanceInfo(state) {
         if (!state.balanceList || !state.balanceList[VITE_TOKENID]) {
             return {};

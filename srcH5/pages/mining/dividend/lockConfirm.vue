@@ -83,7 +83,7 @@ export default {
             };
         },
         dslsBalanceInfo() {
-            return this.$store.getters.exVXBalanceInfo || {};
+            return this.$store.getters.exViteBalanceInfo || {};
         },
         availableAmount() {
             return this.isLockDSLS

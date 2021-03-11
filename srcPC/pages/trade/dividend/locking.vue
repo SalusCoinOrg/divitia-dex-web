@@ -72,7 +72,7 @@ export default {
             return this.$store.getters.activeAddr;
         },
         vxBalanceInfo() {
-            return this.$store.getters.exVXBalanceInfo;
+            return this.$store.getters.exViteBalanceInfo;
         },
         vxUnlocking() {
             const vxUnlocking = this.vxBalanceInfo.vxUnlocking || 0;
