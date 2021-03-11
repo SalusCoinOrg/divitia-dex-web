@@ -25,7 +25,7 @@
             </vite-input>
         </div>
 
-        <div v-if="isLockVX">
+        <div v-if="isLockDSLS">
             <div class="__hint distance"><span>{{ $t('tradeDividend.addHint1') }}</span></div>
             <div class="__hint"><span>{{ $t('tradeDividend.addHint2') }}</span></div>
             <div class="__hint"><span>{{ $t('tradeDividend.addHint3') }}</span></div>
@@ -48,7 +48,7 @@ export default {
     components: { confirm, viteInput },
     data() {
         return {
-            isLockVX: true,
+            isLockDSLS: true,
             isShow: false,
             amount: '',
             amountErr: '',
@@ -63,7 +63,7 @@ export default {
             return this.vxTokenInfo.decimals;
         },
         confirmText() {
-            if (this.isLockVX) {
+            if (this.isLockDSLS) {
                 return {
                     title: this.$t('tradeDividend.lockVXConfirm.title'),
                     submit: this.$t('tradeDividend.lockVXConfirm.submit'),
@@ -82,13 +82,13 @@ export default {
                 amountText: this.$t('tradeDividend.unlockVXConfirm.amountText')
             };
         },
-        vxBalanceInfo() {
+        dslsBalanceInfo() {
             return this.$store.getters.exVXBalanceInfo || {};
         },
         availableAmount() {
-            return this.isLockVX
-                ? this.vxBalanceInfo.available || 0
-                : this.vxBalanceInfo.vxLocked || 0;
+            return this.isLockDSLS
+                ? this.dslsBalanceInfo.available || 0
+                : this.dslsBalanceInfo.vxLocked || 0;
         },
         basicAvailableAmount() {
             return bigNumber.toBasic(this.availableAmount, this.vxTokenDecimals);
@@ -121,8 +121,8 @@ export default {
             this.isAll = true;
             this.amount = bigNumber.toBasic(this.availableAmount, this.vxTokenDecimals);
         },
-        show(isLockVX) {
-            this.isLockVX = isLockVX;
+        show(isLockDSLS) {
+            this.isLockDSLS = isLockDSLS;
             this.isShow = true;
         },
         close() {
@@ -131,7 +131,7 @@ export default {
             this.isAll = false;
         },
         submit() {
-            const actionType = this.isLockVX ? 1 : 2;
+            const actionType = this.isLockDSLS ? 1 : 2;
             const amount = this.isAll ? this.availableAmount : bigNumber.toMin(this.amount, this.vxTokenDecimals);
 
             sendTx({
