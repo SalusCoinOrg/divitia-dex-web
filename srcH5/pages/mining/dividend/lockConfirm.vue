@@ -7,7 +7,7 @@
         <div class="__row">
             <div class="__row_t">{{ confirmText.available }}</div>
             <div class="__input_row __unuse_input __bold">
-                <img :src="vxTokenInfo.icon" class="__icon" />VX
+                <img :src="dslsTokenInfo.icon" class="__icon" />dSLS
                 <span class="__right">{{ basicAvailableAmount }}</span>
             </div>
         </div>
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import { VX_TOKENID } from 'utils/constant';
+import { VITE_TOKENID } from 'utils/constant';
 import viteInput from 'components/viteInput';
 import confirm from 'h5Components/confirm/confirm.vue';
 import bigNumber from 'utils/bigNumber';
@@ -56,11 +56,11 @@ export default {
         };
     },
     computed: {
-        vxTokenInfo() {
-            return this.$store.state.env.tokenMap[VX_TOKENID];
+        dslsTokenInfo() {
+            return this.$store.state.env.tokenMap[VITE_TOKENID];
         },
-        vxTokenDecimals() {
-            return this.vxTokenInfo.decimals;
+        dslsTokenDecimals() {
+            return this.dslsTokenInfo.decimals;
         },
         confirmText() {
             if (this.isLockDSLS) {
@@ -91,7 +91,7 @@ export default {
                 : this.dslsBalanceInfo.vxLocked || 0;
         },
         basicAvailableAmount() {
-            return bigNumber.toBasic(this.availableAmount, this.vxTokenDecimals);
+            return bigNumber.toBasic(this.availableAmount, this.dslsTokenDecimals);
         },
         canSubmit() {
             return +this.amount && !this.amountErr;
@@ -100,9 +100,9 @@ export default {
     methods: {
         validAmount() {
             this.amountErr = verifyAmount({
-                minAmount: bigNumber.toMin(1, this.vxTokenDecimals),
+                minAmount: bigNumber.toMin(1, this.dslsTokenDecimals),
                 formatDecimals: 8,
-                decimals: this.vxTokenDecimals,
+                decimals: this.dslsTokenDecimals,
                 balance: this.availableAmount,
                 errorMap: {
                     notEnough: this.confirmText.notEnough,
@@ -119,7 +119,7 @@ export default {
                 return;
             }
             this.isAll = true;
-            this.amount = bigNumber.toBasic(this.availableAmount, this.vxTokenDecimals);
+            this.amount = bigNumber.toBasic(this.availableAmount, this.dslsTokenDecimals);
         },
         show(isLockDSLS) {
             this.isLockDSLS = isLockDSLS;
@@ -132,7 +132,7 @@ export default {
         },
         submit() {
             const actionType = this.isLockDSLS ? 1 : 2;
-            const amount = this.isAll ? this.availableAmount : bigNumber.toMin(this.amount, this.vxTokenDecimals);
+            const amount = this.isAll ? this.availableAmount : bigNumber.toMin(this.amount, this.dslsTokenDecimals);
 
             sendTx({
                 methodName: 'dexLockVxForDividend',
