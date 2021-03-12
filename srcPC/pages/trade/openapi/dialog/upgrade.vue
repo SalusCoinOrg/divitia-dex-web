@@ -44,7 +44,7 @@ import tips from 'pcComponents/tips.vue';
 import packageInfo from '../packageInfo';
 
 
-const VX_Token_Info = constant.VX_Token_Info;
+const VX_Token_Info = constant.VITE_Token_Info;
 
 export default {
     components: { tips, packageInfo },
