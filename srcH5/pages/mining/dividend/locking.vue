@@ -35,7 +35,7 @@
 <script>
 import myIncome from 'h5Components/myIncome/index';
 import { doUntill } from 'utils/asyncFlow';
-import { VX_TOKENID } from 'utils/constant';
+import { VITE_TOKENID } from 'utils/constant';
 import bigNumber from 'utils/bigNumber';
 import Checkbox from 'uiKit/checkbox';
 import tooltips from 'components/tooltips';
@@ -57,7 +57,7 @@ export default {
     },
     computed: {
         vxTokenInfo() {
-            return this.$store.state.env.tokenMap[VX_TOKENID];
+            return this.$store.state.env.tokenMap[VITE_TOKENID];
         },
         vxTokenDecimals() {
             return this.vxTokenInfo.decimals;

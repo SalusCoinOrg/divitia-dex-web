@@ -25,7 +25,7 @@
 <script>
 import date from 'utils/date';
 import bigNumber from 'utils/bigNumber';
-import { VX_TOKENID } from 'utils/constant';
+import { VITE_TOKENID } from 'utils/constant';
 import { getVxUnlockList } from 'services/viteServer';
 import noData from 'h5Components/noData';
 import listView from 'h5Components/listView.vue';
@@ -47,7 +47,7 @@ export default {
     },
     computed: {
         vxTokenInfo() {
-            return this.$store.state.env.tokenMap[VX_TOKENID];
+            return this.$store.state.env.tokenMap[VITE_TOKENID];
         },
         vxTokenDecimals() {
             return this.vxTokenInfo.decimals;
